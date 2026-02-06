@@ -1,5 +1,6 @@
 /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/launch/robot_description.launch.py
 /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/launch/turtlebot4_gazebo.launch.py
+/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/launch/turtlebot4_rviz.launch.py
 /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/camera_bracket.dae
 /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_lite.dae
 /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_pro.dae
@@ -23,6 +24,7 @@
 /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/config/turtlebot4_controllers.yaml
 /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib/turtlebot4_description/relay_robot_description.py
 /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib/turtlebot4_description/publish_robot_description.py
+/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/rviz/turtlebot4_gazebo.rviz
 /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description
 /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/ament_index/resource_index/parent_prefix_path/turtlebot4_description
 /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.sh

@@ -321,6 +321,9 @@ ament_cmake_symlink_install_directory("/home/feiying/ros2_learn/L05_turtlebot4/s
 # install(PROGRAMS "scripts/relay_robot_description.py" "scripts/publish_robot_description.py" "DESTINATION" "lib/turtlebot4_description")
 ament_cmake_symlink_install_programs("/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description" PROGRAMS "scripts/relay_robot_description.py" "scripts/publish_robot_description.py" "DESTINATION" "lib/turtlebot4_description")
 
+# install(DIRECTORY "rviz" "DESTINATION" "share/turtlebot4_description")
+ament_cmake_symlink_install_directory("/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description" DIRECTORY "rviz" "DESTINATION" "share/turtlebot4_description")
+
 # install(FILES "/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description" FILES "/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
