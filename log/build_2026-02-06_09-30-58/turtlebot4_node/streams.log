@@ -1,0 +1,86 @@
+[0.012s] Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node
+[0.071s] -- The C compiler identification is GNU 13.3.0
+[0.133s] -- The CXX compiler identification is GNU 13.3.0
+[0.149s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.252s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.252s] -- Detecting C compile features
+[0.252s] -- Detecting C compile features - done
+[0.263s] -- Detecting CXX compiler ABI info
+[0.365s] -- Detecting CXX compiler ABI info - done
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.376s] -- Detecting CXX compile features
+[0.377s] -- Detecting CXX compile features - done
+[0.382s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.553s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.636s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.701s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.762s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.782s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.806s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.832s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.946s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.951s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.060s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.089s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.118s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.228s] -- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.295s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.315s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.342s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.396s] -- Found irobot_create_msgs: 3.0.0 (/opt/ros/jazzy/share/irobot_create_msgs/cmake)
+[1.434s] -- Found turtlebot4_msgs: 2.1.1 (/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake)
+[1.455s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.590s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.590s] -- Configured cppcheck include dirs: /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_node/include
+[1.591s] -- Configured cppcheck exclude dirs and/or files: 
+[1.592s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.592s] -- Configured cpplint exclude dirs and/or files: 
+[1.593s] -- Added test 'lint_cmake' to check CMake code style
+[1.595s] -- Added test 'uncrustify' to check C / C++ code style
+[1.595s] -- Configured uncrustify additional arguments: 
+[1.596s] -- Added test 'xmllint' to check XML markup files
+[1.599s] -- Configuring done (1.6s)
+[1.621s] -- Generating done (0.0s)
+[1.627s] -- Build files have been written to: /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node
+[1.642s] Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node
+[1.643s] Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node -- -j4 -l4
+[1.706s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/display.cpp.o[0m
+[1.706s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/turtlebot4.cpp.o[0m
+[1.706s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/buttons.cpp.o[0m
+[1.706s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/main.cpp.o[0m
+[8.146s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/leds.cpp.o[0m
+[27.157s] [ 75%] [32m[1mLinking CXX static library libturtlebot4_node_lib.a[0m
+[27.808s] [ 75%] Built target turtlebot4_node_lib
+[27.831s] [ 87%] [32mBuilding CXX object CMakeFiles/turtlebot4_node.dir/src/main.cpp.o[0m
+[33.237s] [100%] [32m[1mLinking CXX executable turtlebot4_node[0m
+[35.143s] [100%] Built target turtlebot4_node
+[35.155s] Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node -- -j4 -l4
+[35.157s] Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node
+[35.165s] -- Install configuration: ""
+[35.166s] -- Execute custom install script
+[35.166s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/lib/turtlebot4_node/turtlebot4_node
+[35.178s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/action.hpp
+[35.189s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/buttons.hpp
+[35.201s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/display.hpp
+[35.213s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/leds.hpp
+[35.224s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/service.hpp
+[35.235s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/turtlebot4.hpp
+[35.247s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/utils.hpp
+[35.259s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/ament_index/resource_index/package_run_dependencies/turtlebot4_node
+[35.270s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/ament_index/resource_index/parent_prefix_path/turtlebot4_node
+[35.282s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.sh
+[35.293s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.dsv
+[35.305s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/environment/path.sh
+[35.316s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/environment/path.dsv
+[35.328s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/local_setup.bash
+[35.339s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/local_setup.sh
+[35.351s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/local_setup.zsh
+[35.362s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/local_setup.dsv
+[35.374s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.dsv
+[35.385s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/ament_index/resource_index/packages/turtlebot4_node
+[35.397s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.409s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig.cmake
+[35.420s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig-version.cmake
+[35.431s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.xml
+[35.444s] Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node

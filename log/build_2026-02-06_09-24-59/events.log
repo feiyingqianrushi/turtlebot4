@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (turtlebot4_description) JobQueued: {'identifier': 'turtlebot4_description', 'dependencies': OrderedDict()}
+[0.000189] (turtlebot4_msgs) JobQueued: {'identifier': 'turtlebot4_msgs', 'dependencies': OrderedDict()}
+[0.000208] (turtlebot4_navigation) JobQueued: {'identifier': 'turtlebot4_navigation', 'dependencies': OrderedDict()}
+[0.000223] (turtlebot4_node) JobQueued: {'identifier': 'turtlebot4_node', 'dependencies': OrderedDict({'turtlebot4_msgs': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs'})}
+[0.000243] (turtlebot4_msgs) JobStarted: {'identifier': 'turtlebot4_msgs'}
+[0.008079] (turtlebot4_description) JobStarted: {'identifier': 'turtlebot4_description'}
+[0.012434] (turtlebot4_navigation) JobStarted: {'identifier': 'turtlebot4_navigation'}
+[0.017242] (turtlebot4_msgs) JobProgress: {'identifier': 'turtlebot4_msgs', 'progress': 'cmake'}
+[0.017794] (turtlebot4_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs'], 'cwd': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/feiying', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/home/feiying/.gz/sim/gz_models/', 'LANGUAGE': 'zh_CN:zh', 'USER': 'feiying', 'SSH_CLIENT': '192.168.8.200 10091 22', 'LC_TIME': 'zh_CN.UTF-8', 'VSCODE_NLS_CONFIG': '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/helpers/browser.sh', 'HOME': '/home/feiying', 'OLDPWD': '/home/feiying/ros2_learn/L05_turtlebot4/src', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7c1291e0-889f-4d30-9605-4c2f950e5a97.sock', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'zh_CN.UTF-8', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feiying', 'FORCE_COLOR': '0', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'dumb', 'EVERYSPHERE_RIPGREP_PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/node_modules/@vscode/ripgrep/bin/rg', 'XDG_SESSION_ID': '5', 'VSCODE_CLI_REQUIRE_TOKEN': 'ab6707c3-cf19-4d37-8282-7288d6ec0e8b', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/feiying/.cursor-server', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'CURSOR_AGENT': '1', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_DISABLE_DAEMON': '1', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs', 'LC_ALL': 'zh_CN.UTF-8', 'SSH_CONNECTION': '192.168.8.200 10091 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', '_ZO_DOCTOR': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.018963] (turtlebot4_description) JobProgress: {'identifier': 'turtlebot4_description', 'progress': 'cmake'}
+[0.019466] (turtlebot4_description) Command: {'cmd': ['/usr/bin/cmake', '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description'], 'cwd': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/feiying', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/home/feiying/.gz/sim/gz_models/', 'LANGUAGE': 'zh_CN:zh', 'USER': 'feiying', 'SSH_CLIENT': '192.168.8.200 10091 22', 'LC_TIME': 'zh_CN.UTF-8', 'VSCODE_NLS_CONFIG': '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/helpers/browser.sh', 'HOME': '/home/feiying', 'OLDPWD': '/home/feiying/ros2_learn/L05_turtlebot4/src', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7c1291e0-889f-4d30-9605-4c2f950e5a97.sock', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'zh_CN.UTF-8', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feiying', 'FORCE_COLOR': '0', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'dumb', 'EVERYSPHERE_RIPGREP_PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/node_modules/@vscode/ripgrep/bin/rg', 'XDG_SESSION_ID': '5', 'VSCODE_CLI_REQUIRE_TOKEN': 'ab6707c3-cf19-4d37-8282-7288d6ec0e8b', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/feiying/.cursor-server', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'CURSOR_AGENT': '1', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_DISABLE_DAEMON': '1', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description', 'LC_ALL': 'zh_CN.UTF-8', 'SSH_CONNECTION': '192.168.8.200 10091 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', '_ZO_DOCTOR': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.021426] (turtlebot4_navigation) JobProgress: {'identifier': 'turtlebot4_navigation', 'progress': 'cmake'}
+[0.021639] (turtlebot4_navigation) Command: {'cmd': ['/usr/bin/cmake', '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_navigation', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation'], 'cwd': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/feiying', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/home/feiying/.gz/sim/gz_models/', 'LANGUAGE': 'zh_CN:zh', 'USER': 'feiying', 'SSH_CLIENT': '192.168.8.200 10091 22', 'LC_TIME': 'zh_CN.UTF-8', 'VSCODE_NLS_CONFIG': '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/helpers/browser.sh', 'HOME': '/home/feiying', 'OLDPWD': '/home/feiying/ros2_learn/L05_turtlebot4/src', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7c1291e0-889f-4d30-9605-4c2f950e5a97.sock', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'zh_CN.UTF-8', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feiying', 'FORCE_COLOR': '0', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'dumb', 'EVERYSPHERE_RIPGREP_PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/node_modules/@vscode/ripgrep/bin/rg', 'XDG_SESSION_ID': '5', 'VSCODE_CLI_REQUIRE_TOKEN': 'ab6707c3-cf19-4d37-8282-7288d6ec0e8b', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/feiying/.cursor-server', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'CURSOR_AGENT': '1', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_DISABLE_DAEMON': '1', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation', 'LC_ALL': 'zh_CN.UTF-8', 'SSH_CONNECTION': '192.168.8.200 10091 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', '_ZO_DOCTOR': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099403] (-) TimerEvent: {}
+[0.167279] (turtlebot4_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.167750] (turtlebot4_navigation) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.168080] (turtlebot4_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199499] (-) TimerEvent: {}
+[0.282640] (turtlebot4_navigation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.282834] (turtlebot4_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.283069] (turtlebot4_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.299599] (-) TimerEvent: {}
+[0.303989] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.304275] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.304411] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400253] (-) TimerEvent: {}
+[0.409820] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.410006] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.411075] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.419975] (turtlebot4_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.420552] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.421939] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.422053] (turtlebot4_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.422151] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.422814] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.422929] (turtlebot4_navigation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.423088] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.423169] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.431586] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.432174] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.432317] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500320] (-) TimerEvent: {}
+[0.544935] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.545474] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.545684] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.555458] (turtlebot4_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.555803] (turtlebot4_navigation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.555913] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.555991] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.556666] (turtlebot4_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.556791] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.556876] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.557264] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.557363] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.566913] (turtlebot4_navigation) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.567067] (turtlebot4_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.567164] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600751] (-) TimerEvent: {}
+[0.701070] (-) TimerEvent: {}
+[0.750319] (turtlebot4_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.751066] (turtlebot4_navigation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.753446] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.801198] (-) TimerEvent: {}
+[0.848286] (turtlebot4_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.848469] (turtlebot4_navigation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.848556] (turtlebot4_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.901509] (-) TimerEvent: {}
+[0.916426] (turtlebot4_description) StdoutLine: {'line': b'-- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)\n'}
+[0.916908] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.987844] (turtlebot4_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[1.001592] (-) TimerEvent: {}
+[1.019033] (turtlebot4_description) StderrLine: {'line': b'CMake Error at CMakeLists.txt:21 (find_package):\n'}
+[1.019401] (turtlebot4_description) StderrLine: {'line': b'  By not providing "Findirobot_create_description.cmake" in CMAKE_MODULE_PATH\n'}
+[1.019593] (turtlebot4_description) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[1.019712] (turtlebot4_description) StderrLine: {'line': b'  by "irobot_create_description", but CMake did not find one.\n'}
+[1.019800] (turtlebot4_description) StderrLine: {'line': b'\n'}
+[1.019877] (turtlebot4_description) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.019975] (turtlebot4_description) StderrLine: {'line': b'  "irobot_create_description" with any of the following names:\n'}
+[1.020052] (turtlebot4_description) StderrLine: {'line': b'\n'}
+[1.020130] (turtlebot4_description) StderrLine: {'line': b'    irobot_create_descriptionConfig.cmake\n'}
+[1.020226] (turtlebot4_description) StderrLine: {'line': b'    irobot_create_description-config.cmake\n'}
+[1.020846] (turtlebot4_description) StderrLine: {'line': b'\n'}
+[1.020920] (turtlebot4_description) StderrLine: {'line': b'  Add the installation prefix of "irobot_create_description" to\n'}
+[1.021631] (turtlebot4_description) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "irobot_create_description_DIR" to a directory\n'}
+[1.021749] (turtlebot4_description) StderrLine: {'line': b'  containing one of the above files.  If "irobot_create_description" provides\n'}
+[1.021831] (turtlebot4_description) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[1.021909] (turtlebot4_description) StderrLine: {'line': b'\n'}
+[1.022009] (turtlebot4_description) StderrLine: {'line': b'\n'}
+[1.022078] (turtlebot4_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.029431] (turtlebot4_description) CommandEnded: {'returncode': 1}
+[1.055011] (turtlebot4_description) JobEnded: {'identifier': 'turtlebot4_description', 'rc': 1}
+[1.055367] (turtlebot4_navigation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.070188] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.081603] (turtlebot4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101704] (-) TimerEvent: {}
+[1.171558] (turtlebot4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.199351] (turtlebot4_navigation) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.201770] (-) TimerEvent: {}
+[1.202814] (turtlebot4_navigation) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.202986] (turtlebot4_navigation) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.204013] (turtlebot4_navigation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.205069] (turtlebot4_navigation) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.207204] (turtlebot4_navigation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.209819] (turtlebot4_navigation) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.215438] (turtlebot4_navigation) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.217589] (turtlebot4_navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation\n'}
+[1.222999] (turtlebot4_navigation) JobEnded: {'identifier': 'turtlebot4_navigation', 'rc': 'SIGINT'}
+[1.245531] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.252448] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.301867] (-) TimerEvent: {}
+[1.402030] (-) TimerEvent: {}
+[1.502169] (-) TimerEvent: {}
+[1.602342] (-) TimerEvent: {}
+[1.702523] (-) TimerEvent: {}
+[1.802697] (-) TimerEvent: {}
+[1.856050] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.902797] (-) TimerEvent: {}
+[2.002965] (-) TimerEvent: {}
+[2.103142] (-) TimerEvent: {}
+[2.203298] (-) TimerEvent: {}
+[2.303467] (-) TimerEvent: {}
+[2.354932] (turtlebot4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.403566] (-) TimerEvent: {}
+[2.503728] (-) TimerEvent: {}
+[2.603896] (-) TimerEvent: {}
+[2.704058] (-) TimerEvent: {}
+[2.804223] (-) TimerEvent: {}
+[2.904396] (-) TimerEvent: {}
+[2.978878] (turtlebot4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.984632] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.004499] (-) TimerEvent: {}
+[3.104661] (-) TimerEvent: {}
+[3.139583] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.204770] (-) TimerEvent: {}
+[3.304935] (-) TimerEvent: {}
+[3.405089] (-) TimerEvent: {}
+[3.505263] (-) TimerEvent: {}
+[3.605427] (-) TimerEvent: {}
+[3.630814] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.671882] (turtlebot4_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.674009] (turtlebot4_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.675412] (turtlebot4_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.684466] (turtlebot4_msgs) StdoutLine: {'line': b'-- Configuring done (3.6s)\n'}
+[3.705609] (-) TimerEvent: {}
+[3.724392] (turtlebot4_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.736547] (turtlebot4_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs\n'}
+[3.750149] (turtlebot4_msgs) JobEnded: {'identifier': 'turtlebot4_msgs', 'rc': 'SIGINT'}
+[3.751178] (turtlebot4_node) JobSkipped: {'identifier': 'turtlebot4_node'}
+[3.751216] (-) EventReactorShutdown: {}

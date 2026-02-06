@@ -1,0 +1,35 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+CMake Error at CMakeLists.txt:21 (find_package):
+  By not providing "Findirobot_create_description.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "irobot_create_description", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "irobot_create_description" with any of the following names:
+
+    irobot_create_descriptionConfig.cmake
+    irobot_create_description-config.cmake
+
+  Add the installation prefix of "irobot_create_description" to
+  CMAKE_PREFIX_PATH or set "irobot_create_description_DIR" to a directory
+  containing one of the above files.  If "irobot_create_description" provides
+  a separate development package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!

@@ -1,0 +1,9 @@
+{
+  "package_name": "turtlebot4_msgs",
+  "output_dir": "/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs",
+  "idl_tuples": [
+    "/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs:msg/UserLed.idl",
+    "/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs:msg/UserButton.idl",
+    "/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs:msg/UserDisplay.idl"
+  ]
+}

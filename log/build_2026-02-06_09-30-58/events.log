@@ -1,0 +1,863 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (turtlebot4_description) JobQueued: {'identifier': 'turtlebot4_description', 'dependencies': OrderedDict()}
+[0.000330] (turtlebot4_msgs) JobQueued: {'identifier': 'turtlebot4_msgs', 'dependencies': OrderedDict()}
+[0.000708] (turtlebot4_navigation) JobQueued: {'identifier': 'turtlebot4_navigation', 'dependencies': OrderedDict()}
+[0.000839] (turtlebot4_node) JobQueued: {'identifier': 'turtlebot4_node', 'dependencies': OrderedDict({'turtlebot4_msgs': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs'})}
+[0.000941] (turtlebot4_msgs) JobStarted: {'identifier': 'turtlebot4_msgs'}
+[0.006912] (turtlebot4_description) JobStarted: {'identifier': 'turtlebot4_description'}
+[0.010875] (turtlebot4_navigation) JobStarted: {'identifier': 'turtlebot4_navigation'}
+[0.016343] (turtlebot4_msgs) JobProgress: {'identifier': 'turtlebot4_msgs', 'progress': 'cmake'}
+[0.016939] (turtlebot4_msgs) JobProgress: {'identifier': 'turtlebot4_msgs', 'progress': 'build'}
+[0.017607] (turtlebot4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs', '--', '-j4', '-l4'], 'cwd': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/feiying/.gz/sim/gz_models/', 'LANGUAGE': 'zh_CN:zh', 'USER': 'feiying', 'SSH_CLIENT': '192.168.8.200 10091 22', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/helpers/browser.sh', 'HOME': '/home/feiying', 'OLDPWD': '/home/feiying/ros2_learn', 'TERM_PROGRAM_VERSION': '2.2.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-30666dc1-5b74-42c7-87b0-14294200b6a8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feiying', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0db45ebc47.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_DISABLE_DAEMON': '1', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_IPC_AUTH_TOKEN': 'c12d11516b7ccffe3c56eef3e75af2c7730583102a3f1d328bbb4a0556a6c7fc', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs', 'LC_ALL': 'zh_CN.UTF-8', 'SSH_CONNECTION': '192.168.8.200 10091 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.019841] (turtlebot4_description) JobProgress: {'identifier': 'turtlebot4_description', 'progress': 'cmake'}
+[0.020907] (turtlebot4_description) Command: {'cmd': ['/usr/bin/cmake', '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description'], 'cwd': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/feiying/.gz/sim/gz_models/', 'LANGUAGE': 'zh_CN:zh', 'USER': 'feiying', 'SSH_CLIENT': '192.168.8.200 10091 22', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/helpers/browser.sh', 'HOME': '/home/feiying', 'OLDPWD': '/home/feiying/ros2_learn', 'TERM_PROGRAM_VERSION': '2.2.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-30666dc1-5b74-42c7-87b0-14294200b6a8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feiying', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0db45ebc47.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_DISABLE_DAEMON': '1', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_IPC_AUTH_TOKEN': 'c12d11516b7ccffe3c56eef3e75af2c7730583102a3f1d328bbb4a0556a6c7fc', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description', 'LC_ALL': 'zh_CN.UTF-8', 'SSH_CONNECTION': '192.168.8.200 10091 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.026841] (turtlebot4_navigation) JobProgress: {'identifier': 'turtlebot4_navigation', 'progress': 'cmake'}
+[0.027237] (turtlebot4_navigation) JobProgress: {'identifier': 'turtlebot4_navigation', 'progress': 'build'}
+[0.027296] (turtlebot4_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation', '--', '-j4', '-l4'], 'cwd': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/feiying/.gz/sim/gz_models/', 'LANGUAGE': 'zh_CN:zh', 'USER': 'feiying', 'SSH_CLIENT': '192.168.8.200 10091 22', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/helpers/browser.sh', 'HOME': '/home/feiying', 'OLDPWD': '/home/feiying/ros2_learn', 'TERM_PROGRAM_VERSION': '2.2.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-30666dc1-5b74-42c7-87b0-14294200b6a8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feiying', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0db45ebc47.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_DISABLE_DAEMON': '1', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_IPC_AUTH_TOKEN': 'c12d11516b7ccffe3c56eef3e75af2c7730583102a3f1d328bbb4a0556a6c7fc', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation', 'LC_ALL': 'zh_CN.UTF-8', 'SSH_CONNECTION': '192.168.8.200 10091 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.045650] (turtlebot4_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.098219] (turtlebot4_navigation) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_turtlebot4_navigation\n'}
+[0.099765] (-) TimerEvent: {}
+[0.105570] (turtlebot4_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[0.126061] (turtlebot4_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_turtlebot4_msgs\n'}
+[0.200082] (-) TimerEvent: {}
+[0.300637] (-) TimerEvent: {}
+[0.356577] (turtlebot4_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.376119] (turtlebot4_description) StdoutLine: {'line': b'-- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)\n'}
+[0.400726] (-) TimerEvent: {}
+[0.406007] (turtlebot4_navigation) StdoutLine: {'line': b'running egg_info\n'}
+[0.410299] (turtlebot4_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[0.410549] (turtlebot4_navigation) StdoutLine: {'line': b'creating turtlebot4_navigation.egg-info\n'}
+[0.419248] (turtlebot4_description) StdoutLine: {'line': b'-- Found irobot_create_description: 3.0.4 (/opt/ros/jazzy/share/irobot_create_description/cmake)\n'}
+[0.423603] (turtlebot4_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.466230] (turtlebot4_navigation) StdoutLine: {'line': b'writing turtlebot4_navigation.egg-info/PKG-INFO\n'}
+[0.470332] (turtlebot4_navigation) StdoutLine: {'line': b'writing dependency_links to turtlebot4_navigation.egg-info/dependency_links.txt\n'}
+[0.470572] (turtlebot4_navigation) StdoutLine: {'line': b'writing top-level names to turtlebot4_navigation.egg-info/top_level.txt\n'}
+[0.470748] (turtlebot4_navigation) StdoutLine: {'line': b"writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'\n"}
+[0.492990] (turtlebot4_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.498709] (turtlebot4_msgs) StdoutLine: {'line': b'creating turtlebot4_msgs.egg-info\n'}
+[0.500800] (-) TimerEvent: {}
+[0.557676] (turtlebot4_msgs) StdoutLine: {'line': b'writing turtlebot4_msgs.egg-info/PKG-INFO\n'}
+[0.559209] (turtlebot4_msgs) StdoutLine: {'line': b'writing dependency_links to turtlebot4_msgs.egg-info/dependency_links.txt\n'}
+[0.560805] (turtlebot4_msgs) StdoutLine: {'line': b'writing top-level names to turtlebot4_msgs.egg-info/top_level.txt\n'}
+[0.561014] (turtlebot4_msgs) StdoutLine: {'line': b"writing manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'\n"}
+[0.574129] (turtlebot4_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.574973] (turtlebot4_msgs) StdoutLine: {'line': b'[  1%] Built target turtlebot4_msgs__rosidl_generator_type_description\n'}
+[0.581115] (turtlebot4_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.581306] (turtlebot4_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[0.581414] (turtlebot4_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.585108] (turtlebot4_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.591079] (turtlebot4_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.591847] (turtlebot4_description) StdoutLine: {'line': b'-- Configuring done (0.6s)\n'}
+[0.598466] (turtlebot4_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.599687] (turtlebot4_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.600883] (-) TimerEvent: {}
+[0.601350] (turtlebot4_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.608120] (turtlebot4_description) StdoutLine: {'line': b'-- Build files have been written to: /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description\n'}
+[0.618604] (turtlebot4_navigation) StdoutLine: {'line': b"reading manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'\n"}
+[0.619580] (turtlebot4_navigation) StdoutLine: {'line': b"writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'\n"}
+[0.620885] (turtlebot4_description) CommandEnded: {'returncode': 0}
+[0.621968] (turtlebot4_description) JobProgress: {'identifier': 'turtlebot4_description', 'progress': 'build'}
+[0.622014] (turtlebot4_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description', '--', '-j4', '-l4'], 'cwd': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/feiying/.gz/sim/gz_models/', 'LANGUAGE': 'zh_CN:zh', 'USER': 'feiying', 'SSH_CLIENT': '192.168.8.200 10091 22', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/helpers/browser.sh', 'HOME': '/home/feiying', 'OLDPWD': '/home/feiying/ros2_learn', 'TERM_PROGRAM_VERSION': '2.2.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-30666dc1-5b74-42c7-87b0-14294200b6a8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feiying', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0db45ebc47.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_DISABLE_DAEMON': '1', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_IPC_AUTH_TOKEN': 'c12d11516b7ccffe3c56eef3e75af2c7730583102a3f1d328bbb4a0556a6c7fc', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description', 'LC_ALL': 'zh_CN.UTF-8', 'SSH_CONNECTION': '192.168.8.200 10091 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.669124] (turtlebot4_navigation) StdoutLine: {'line': b'Built target ament_cmake_python_build_turtlebot4_navigation_egg\n'}
+[0.676478] (turtlebot4_msgs) StdoutLine: {'line': b"reading manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'\n"}
+[0.677520] (turtlebot4_msgs) StdoutLine: {'line': b"writing manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'\n"}
+[0.689700] (turtlebot4_navigation) CommandEnded: {'returncode': 0}
+[0.690069] (turtlebot4_navigation) JobProgress: {'identifier': 'turtlebot4_navigation', 'progress': 'install'}
+[0.700974] (-) TimerEvent: {}
+[0.712507] (turtlebot4_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation'], 'cwd': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/feiying/.gz/sim/gz_models/', 'LANGUAGE': 'zh_CN:zh', 'USER': 'feiying', 'SSH_CLIENT': '192.168.8.200 10091 22', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/helpers/browser.sh', 'HOME': '/home/feiying', 'OLDPWD': '/home/feiying/ros2_learn', 'TERM_PROGRAM_VERSION': '2.2.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-30666dc1-5b74-42c7-87b0-14294200b6a8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feiying', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0db45ebc47.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_DISABLE_DAEMON': '1', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_IPC_AUTH_TOKEN': 'c12d11516b7ccffe3c56eef3e75af2c7730583102a3f1d328bbb4a0556a6c7fc', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation', 'LC_ALL': 'zh_CN.UTF-8', 'SSH_CONNECTION': '192.168.8.200 10091 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.715712] (turtlebot4_description) CommandEnded: {'returncode': 0}
+[0.716053] (turtlebot4_description) JobProgress: {'identifier': 'turtlebot4_description', 'progress': 'install'}
+[0.716088] (turtlebot4_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description'], 'cwd': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/feiying/.gz/sim/gz_models/', 'LANGUAGE': 'zh_CN:zh', 'USER': 'feiying', 'SSH_CLIENT': '192.168.8.200 10091 22', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/helpers/browser.sh', 'HOME': '/home/feiying', 'OLDPWD': '/home/feiying/ros2_learn', 'TERM_PROGRAM_VERSION': '2.2.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-30666dc1-5b74-42c7-87b0-14294200b6a8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feiying', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0db45ebc47.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_DISABLE_DAEMON': '1', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_IPC_AUTH_TOKEN': 'c12d11516b7ccffe3c56eef3e75af2c7730583102a3f1d328bbb4a0556a6c7fc', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description', 'LC_ALL': 'zh_CN.UTF-8', 'SSH_CONNECTION': '192.168.8.200 10091 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.726295] (turtlebot4_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_turtlebot4_msgs_egg\n'}
+[0.728642] (turtlebot4_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.731432] (turtlebot4_navigation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.732218] (turtlebot4_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.733099] (turtlebot4_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.733293] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/launch/robot_description.launch.py\n'}
+[0.734758] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/config/localization.yaml\n'}
+[0.744539] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/config/nav2.yaml\n'}
+[0.745407] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/camera_bracket.dae\n'}
+[0.755775] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_lite.dae\n'}
+[0.758095] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/config/slam.yaml\n'}
+[0.766337] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_pro.dae\n'}
+[0.767529] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/localization.launch.py\n'}
+[0.776757] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/rplidar.dae\n'}
+[0.777720] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/nav2.launch.py\n'}
+[0.787823] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/slam.launch.py\n'}
+[0.789472] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/shell.dae\n'}
+[0.800110] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.pgm\n'}
+[0.800316] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/shell_collision.dae\n'}
+[0.801051] (-) TimerEvent: {}
+[0.809738] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/tower.dae\n'}
+[0.810614] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.yaml\n'}
+[0.820325] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.pgm\n'}
+[0.822108] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_sensor_plate.dae\n'}
+[0.831385] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_standoff.dae\n'}
+[0.832242] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.yaml\n'}
+[0.841477] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.pgm\n'}
+[0.843510] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/weight_block.dae\n'}
+[0.852558] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.yaml\n'}
+[0.857126] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf.xacro\n'}
+[0.864857] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.sh\n'}
+[0.874127] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/camera_bracket.urdf.xacro\n'}
+[0.876655] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.dsv\n'}
+[0.884199] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/oakd.urdf.xacro\n'}
+[0.888777] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation-2.1.1-py3.12.egg-info/PKG-INFO\n'}
+[0.895342] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/rplidar.urdf.xacro\n'}
+[0.900028] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation-2.1.1-py3.12.egg-info/SOURCES.txt\n'}
+[0.901133] (-) TimerEvent: {}
+[0.906848] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_sensor_plate.urdf.xacro\n'}
+[0.911467] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation-2.1.1-py3.12.egg-info/dependency_links.txt\n'}
+[0.918104] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_standoff.urdf.xacro\n'}
+[0.922649] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation-2.1.1-py3.12.egg-info/top_level.txt\n'}
+[0.929144] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro\n'}
+[0.934406] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation/__init__.py\n'}
+[0.942150] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/weight_block.urdf.xacro\n'}
+[0.945871] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation/turtlebot4_navigator.py\n'}
+[0.950985] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description\n'}
+[0.959142] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigator.py\n'}
+[0.962077] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/ament_index/resource_index/parent_prefix_path/turtlebot4_description\n'}
+[0.968829] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot4_navigation\n'}
+[0.973324] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.sh\n'}
+[0.980142] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot4_navigation\n'}
+[0.984641] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.dsv\n'}
+[0.991425] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.sh\n'}
+[0.995895] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/environment/path.sh\n'}
+[1.001217] (-) TimerEvent: {}
+[1.002549] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.dsv\n'}
+[1.007613] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/environment/path.dsv\n'}
+[1.013738] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.sh\n'}
+[1.019051] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/local_setup.bash\n'}
+[1.025518] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.dsv\n'}
+[1.031222] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/local_setup.sh\n'}
+[1.040082] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.bash\n'}
+[1.043946] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/local_setup.zsh\n'}
+[1.049703] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.sh\n'}
+[1.060286] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/local_setup.dsv\n'}
+[1.061604] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.zsh\n'}
+[1.075796] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.dsv\n'}
+[1.076438] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.dsv\n'}
+[1.088493] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.dsv\n'}
+[1.088702] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/ament_index/resource_index/packages/turtlebot4_description\n'}
+[1.098559] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/ament_index/resource_index/packages/turtlebot4_navigation\n'}
+[1.101310] (-) TimerEvent: {}
+[1.102959] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig.cmake\n'}
+[1.111632] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig.cmake\n'}
+[1.122120] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig-version.cmake\n'}
+[1.130278] (turtlebot4_description) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.xml\n'}
+[1.131979] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig-version.cmake\n'}
+[1.141531] (turtlebot4_navigation) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.xml\n'}
+[1.143440] (turtlebot4_description) CommandEnded: {'returncode': 0}
+[1.167846] (turtlebot4_description) JobEnded: {'identifier': 'turtlebot4_description', 'rc': 0}
+[1.181339] (turtlebot4_msgs) StdoutLine: {'line': b'[  5%] Built target turtlebot4_msgs__cpp\n'}
+[1.199200] (turtlebot4_navigation) StdoutLine: {'line': b"Listing '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation'...\n"}
+[1.199430] (turtlebot4_navigation) StdoutLine: {'line': b"Compiling '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation/__init__.py'...\n"}
+[1.199548] (turtlebot4_navigation) StdoutLine: {'line': b"Compiling '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation/turtlebot4_navigator.py'...\n"}
+[1.202363] (-) TimerEvent: {}
+[1.249009] (turtlebot4_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_led__description.c.o\x1b[0m\n'}
+[1.250019] (turtlebot4_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_button__description.c.o\x1b[0m\n'}
+[1.254412] (turtlebot4_navigation) StdoutLine: {'line': b"Compiling '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigator.py'...\n"}
+[1.257945] (turtlebot4_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_led__functions.c.o\x1b[0m\n'}
+[1.259574] (turtlebot4_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_led__type_support.c.o\x1b[0m\n'}
+[1.267233] (turtlebot4_navigation) CommandEnded: {'returncode': 0}
+[1.302556] (-) TimerEvent: {}
+[1.304075] (turtlebot4_navigation) JobEnded: {'identifier': 'turtlebot4_navigation', 'rc': 0}
+[1.305161] (turtlebot4_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_button__functions.c.o\x1b[0m\n'}
+[1.310612] (turtlebot4_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_button__type_support.c.o\x1b[0m\n'}
+[1.315154] (turtlebot4_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_display__description.c.o\x1b[0m\n'}
+[1.333078] (turtlebot4_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_display__functions.c.o\x1b[0m\n'}
+[1.346074] (turtlebot4_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_display__type_support.c.o\x1b[0m\n'}
+[1.383812] (turtlebot4_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libturtlebot4_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.402683] (-) TimerEvent: {}
+[1.423120] (turtlebot4_msgs) StdoutLine: {'line': b'[ 24%] Built target turtlebot4_msgs__rosidl_generator_c\n'}
+[1.435615] (turtlebot4_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.435828] (turtlebot4_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.435937] (turtlebot4_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.436028] (turtlebot4_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.503080] (-) TimerEvent: {}
+[1.603332] (-) TimerEvent: {}
+[1.704199] (-) TimerEvent: {}
+[1.806088] (-) TimerEvent: {}
+[1.834755] (turtlebot4_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_led__type_support.cpp.o\x1b[0m\n'}
+[1.885888] (turtlebot4_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_button__type_support.cpp.o\x1b[0m\n'}
+[1.895884] (turtlebot4_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_led__type_support.c.o\x1b[0m\n'}
+[1.906193] (-) TimerEvent: {}
+[1.930388] (turtlebot4_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_display__type_support.cpp.o\x1b[0m\n'}
+[1.934904] (turtlebot4_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_button__type_support.c.o\x1b[0m\n'}
+[1.941561] (turtlebot4_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_led__type_support.cpp.o\x1b[0m\n'}
+[1.973726] (turtlebot4_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.973916] (turtlebot4_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_display__type_support.c.o\x1b[0m\n'}
+[1.982352] (turtlebot4_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_led__type_support_c.cpp.o\x1b[0m\n'}
+[2.006348] (-) TimerEvent: {}
+[2.015837] (turtlebot4_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libturtlebot4_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.021294] (turtlebot4_msgs) StdoutLine: {'line': b'[ 50%] Built target turtlebot4_msgs__rosidl_typesupport_c\n'}
+[2.029798] (turtlebot4_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_button__type_support_c.cpp.o\x1b[0m\n'}
+[2.051080] (turtlebot4_msgs) StdoutLine: {'line': b'[ 51%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_c\n'}
+[2.061438] (turtlebot4_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_button__type_support.cpp.o\x1b[0m\n'}
+[2.106446] (-) TimerEvent: {}
+[2.206716] (-) TimerEvent: {}
+[2.308172] (-) TimerEvent: {}
+[2.408473] (-) TimerEvent: {}
+[2.508522] (turtlebot4_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_display__type_support_c.cpp.o\x1b[0m\n'}
+[2.508719] (-) TimerEvent: {}
+[2.515520] (turtlebot4_msgs) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.530206] (turtlebot4_msgs) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.568874] (turtlebot4_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_display__type_support.cpp.o\x1b[0m\n'}
+[2.608814] (-) TimerEvent: {}
+[2.710264] (-) TimerEvent: {}
+[2.810505] (-) TimerEvent: {}
+[2.910847] (-) TimerEvent: {}
+[2.933947] (turtlebot4_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_led__type_support.cpp.o\x1b[0m\n'}
+[2.984810] (turtlebot4_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_led__type_support.cpp.o\x1b[0m\n'}
+[3.010951] (-) TimerEvent: {}
+[3.029987] (turtlebot4_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.092890] (turtlebot4_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.112867] (-) TimerEvent: {}
+[3.134616] (turtlebot4_msgs) StdoutLine: {'line': b'[ 68%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.145030] (turtlebot4_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_button__type_support.cpp.o\x1b[0m\n'}
+[3.195500] (turtlebot4_msgs) StdoutLine: {'line': b'[ 70%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.206109] (turtlebot4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_display__type_support.cpp.o\x1b[0m\n'}
+[3.212973] (-) TimerEvent: {}
+[3.273352] (turtlebot4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_button__type_support.cpp.o\x1b[0m\n'}
+[3.313081] (-) TimerEvent: {}
+[3.317295] (turtlebot4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_display__type_support.cpp.o\x1b[0m\n'}
+[3.413183] (-) TimerEvent: {}
+[3.513500] (-) TimerEvent: {}
+[3.555067] (turtlebot4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.613634] (-) TimerEvent: {}
+[3.639688] (turtlebot4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.648717] (turtlebot4_msgs) StdoutLine: {'line': b'[ 79%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.681760] (turtlebot4_msgs) StdoutLine: {'line': b'[ 79%] Built target turtlebot4_msgs__rosidl_typesupport_cpp\n'}
+[3.708522] (turtlebot4_msgs) StdoutLine: {'line': b'[ 79%] Built target turtlebot4_msgs\n'}
+[3.713730] (-) TimerEvent: {}
+[3.735326] (turtlebot4_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.813834] (-) TimerEvent: {}
+[3.914109] (-) TimerEvent: {}
+[4.014364] (-) TimerEvent: {}
+[4.114626] (-) TimerEvent: {}
+[4.214891] (-) TimerEvent: {}
+[4.315179] (-) TimerEvent: {}
+[4.363667] (turtlebot4_msgs) StdoutLine: {'line': b'[ 81%] Built target turtlebot4_msgs__py\n'}
+[4.386120] (turtlebot4_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o\x1b[0m\n'}
+[4.386320] (turtlebot4_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o\x1b[0m\n'}
+[4.386413] (turtlebot4_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o\x1b[0m\n'}
+[4.415289] (-) TimerEvent: {}
+[4.515557] (-) TimerEvent: {}
+[4.536524] (turtlebot4_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library libturtlebot4_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[4.578735] (turtlebot4_msgs) StdoutLine: {'line': b'[ 88%] Built target turtlebot4_msgs__rosidl_generator_py\n'}
+[4.602216] (turtlebot4_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.602429] (turtlebot4_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.602542] (turtlebot4_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.615665] (-) TimerEvent: {}
+[4.712500] (turtlebot4_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.713436] (turtlebot4_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.715832] (turtlebot4_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.716008] (-) TimerEvent: {}
+[4.746402] (turtlebot4_msgs) StdoutLine: {'line': b'[100%] Built target turtlebot4_msgs_s__rosidl_typesupport_c\n'}
+[4.747295] (turtlebot4_msgs) StdoutLine: {'line': b'[100%] Built target turtlebot4_msgs_s__rosidl_typesupport_introspection_c\n'}
+[4.749781] (turtlebot4_msgs) StdoutLine: {'line': b'[100%] Built target turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[4.762228] (turtlebot4_msgs) CommandEnded: {'returncode': 0}
+[4.763036] (turtlebot4_msgs) JobProgress: {'identifier': 'turtlebot4_msgs', 'progress': 'install'}
+[4.763442] (turtlebot4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs'], 'cwd': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/feiying/.gz/sim/gz_models/', 'LANGUAGE': 'zh_CN:zh', 'USER': 'feiying', 'SSH_CLIENT': '192.168.8.200 10091 22', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/helpers/browser.sh', 'HOME': '/home/feiying', 'OLDPWD': '/home/feiying/ros2_learn', 'TERM_PROGRAM_VERSION': '2.2.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-30666dc1-5b74-42c7-87b0-14294200b6a8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feiying', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0db45ebc47.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_DISABLE_DAEMON': '1', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_IPC_AUTH_TOKEN': 'c12d11516b7ccffe3c56eef3e75af2c7730583102a3f1d328bbb4a0556a6c7fc', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs', 'LC_ALL': 'zh_CN.UTF-8', 'SSH_CONNECTION': '192.168.8.200 10091 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.772381] (turtlebot4_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.773011] (turtlebot4_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.773362] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot4_msgs\n'}
+[4.783349] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.json\n'}
+[4.793013] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.json\n'}
+[4.802331] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.json\n'}
+[4.812387] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__functions.h\n'}
+[4.816100] (-) TimerEvent: {}
+[4.822449] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__struct.h\n'}
+[4.834282] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__type_support.h\n'}
+[4.845729] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__functions.h\n'}
+[4.856952] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__struct.h\n'}
+[4.868008] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__type_support.h\n'}
+[4.879508] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__functions.h\n'}
+[4.890588] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__struct.h\n'}
+[4.901932] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__type_support.h\n'}
+[4.912998] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.916175] (-) TimerEvent: {}
+[4.924151] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_button.h\n'}
+[4.935362] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_display.h\n'}
+[4.946767] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_led.h\n'}
+[4.958159] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/library_path.sh\n'}
+[4.969517] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/library_path.dsv\n'}
+[4.981512] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_fastrtps_c.h\n'}
+[4.993094] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_fastrtps_c.h\n'}
+[5.004213] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_fastrtps_c.h\n'}
+[5.015382] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.016269] (-) TimerEvent: {}
+[5.027154] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_introspection_c.h\n'}
+[5.038605] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_introspection_c.h\n'}
+[5.049875] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_introspection_c.h\n'}
+[5.061116] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.072593] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__builder.hpp\n'}
+[5.083752] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__struct.hpp\n'}
+[5.095018] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__traits.hpp\n'}
+[5.106072] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__type_support.hpp\n'}
+[5.116374] (-) TimerEvent: {}
+[5.117409] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__builder.hpp\n'}
+[5.129148] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__struct.hpp\n'}
+[5.140652] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__traits.hpp\n'}
+[5.152305] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__type_support.hpp\n'}
+[5.164101] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__builder.hpp\n'}
+[5.175590] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__struct.hpp\n'}
+[5.188521] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__traits.hpp\n'}
+[5.199676] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__type_support.hpp\n'}
+[5.211113] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.216468] (-) TimerEvent: {}
+[5.222352] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_button.hpp\n'}
+[5.233915] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_display.hpp\n'}
+[5.245361] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_led.hpp\n'}
+[5.257360] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.268480] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.279877] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.291355] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.303200] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.314624] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.316554] (-) TimerEvent: {}
+[5.326354] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.338150] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/pythonpath.sh\n'}
+[5.349962] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/pythonpath.dsv\n'}
+[5.362401] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs-2.1.1-py3.12.egg-info/PKG-INFO\n'}
+[5.374260] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs-2.1.1-py3.12.egg-info/SOURCES.txt\n'}
+[5.385995] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs-2.1.1-py3.12.egg-info/dependency_links.txt\n'}
+[5.397778] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs-2.1.1-py3.12.egg-info/top_level.txt\n'}
+[5.410107] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/__init__.py\n'}
+[5.416662] (-) TimerEvent: {}
+[5.421668] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.433480] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.444947] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.456654] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/__init__.py\n'}
+[5.468206] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_button.py\n'}
+[5.479665] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_button_s.c\n'}
+[5.491019] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_display.py\n'}
+[5.502222] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_display_s.c\n'}
+[5.513364] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_led.py\n'}
+[5.516757] (-) TimerEvent: {}
+[5.524886] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_led_s.c\n'}
+[5.536087] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so\n'}
+[5.547614] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.559546] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.571522] (turtlebot4_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.571819] (turtlebot4_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.572164] (turtlebot4_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so\n'}
+[5.572385] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.idl\n'}
+[5.583881] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.idl\n'}
+[5.595327] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.idl\n'}
+[5.606744] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.msg\n'}
+[5.616878] (-) TimerEvent: {}
+[5.619883] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.msg\n'}
+[5.631747] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.msg\n'}
+[5.643540] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot4_msgs\n'}
+[5.655226] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot4_msgs\n'}
+[5.666758] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/ament_prefix_path.sh\n'}
+[5.678345] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/ament_prefix_path.dsv\n'}
+[5.690022] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/path.sh\n'}
+[5.701396] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/path.dsv\n'}
+[5.712536] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.bash\n'}
+[5.716979] (-) TimerEvent: {}
+[5.724120] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.sh\n'}
+[5.735382] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.zsh\n'}
+[5.746357] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.dsv\n'}
+[5.757593] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.dsv\n'}
+[5.768815] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/ament_index/resource_index/packages/turtlebot4_msgs\n'}
+[5.780454] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.791383] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.802661] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.813586] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.817071] (-) TimerEvent: {}
+[5.824592] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.835573] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.846721] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.857515] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgsConfig.cmake\n'}
+[5.868380] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgsConfig-version.cmake\n'}
+[5.879529] (turtlebot4_msgs) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.xml\n'}
+[5.891064] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_c.so\n'}
+[5.891565] (turtlebot4_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_c.so" to ""\n'}
+[5.891768] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.892145] (turtlebot4_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.892325] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.892635] (turtlebot4_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.892825] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_c.so\n'}
+[5.893089] (turtlebot4_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_c.so" to ""\n'}
+[5.893242] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.893643] (turtlebot4_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.893797] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.894252] (turtlebot4_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.894427] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_cpp.so\n'}
+[5.894764] (turtlebot4_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[5.917163] (-) TimerEvent: {}
+[5.939864] (turtlebot4_msgs) StdoutLine: {'line': b"Listing '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs'...\n"}
+[5.940060] (turtlebot4_msgs) StdoutLine: {'line': b"Compiling '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/__init__.py'...\n"}
+[5.940163] (turtlebot4_msgs) StdoutLine: {'line': b"Listing '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg'...\n"}
+[5.940243] (turtlebot4_msgs) StdoutLine: {'line': b"Compiling '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/__init__.py'...\n"}
+[5.940322] (turtlebot4_msgs) StdoutLine: {'line': b"Compiling '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_button.py'...\n"}
+[5.940400] (turtlebot4_msgs) StdoutLine: {'line': b"Compiling '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_display.py'...\n"}
+[5.940476] (turtlebot4_msgs) StdoutLine: {'line': b"Compiling '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_led.py'...\n"}
+[5.945913] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_py.so\n'}
+[5.946314] (turtlebot4_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_py.so" to ""\n'}
+[5.946481] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cExport.cmake\n'}
+[5.946619] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.946750] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.946871] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.946977] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.947084] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.947208] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.947395] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.947545] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.947666] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.947781] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.947912] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.948048] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.948177] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.948296] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.948462] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.948592] (turtlebot4_msgs) StdoutLine: {'line': b'-- Installing: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.950691] (turtlebot4_msgs) CommandEnded: {'returncode': 0}
+[5.975647] (turtlebot4_msgs) JobEnded: {'identifier': 'turtlebot4_msgs', 'rc': 0}
+[5.977383] (turtlebot4_node) JobStarted: {'identifier': 'turtlebot4_node'}
+[5.987747] (turtlebot4_node) JobProgress: {'identifier': 'turtlebot4_node', 'progress': 'cmake'}
+[5.988466] (turtlebot4_node) Command: {'cmd': ['/usr/bin/cmake', '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_node', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node'], 'cwd': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/feiying/.gz/sim/gz_models/', 'LANGUAGE': 'zh_CN:zh', 'USER': 'feiying', 'SSH_CLIENT': '192.168.8.200 10091 22', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/helpers/browser.sh', 'HOME': '/home/feiying', 'OLDPWD': '/home/feiying/ros2_learn', 'TERM_PROGRAM_VERSION': '2.2.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-30666dc1-5b74-42c7-87b0-14294200b6a8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feiying', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0db45ebc47.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_DISABLE_DAEMON': '1', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_IPC_AUTH_TOKEN': 'c12d11516b7ccffe3c56eef3e75af2c7730583102a3f1d328bbb4a0556a6c7fc', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node', 'LC_ALL': 'zh_CN.UTF-8', 'SSH_CONNECTION': '192.168.8.200 10091 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.017279] (-) TimerEvent: {}
+[6.048107] (turtlebot4_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[6.110247] (turtlebot4_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[6.117374] (-) TimerEvent: {}
+[6.126084] (turtlebot4_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.216880] (turtlebot4_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.217458] (-) TimerEvent: {}
+[6.228795] (turtlebot4_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.229077] (turtlebot4_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.229584] (turtlebot4_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.240048] (turtlebot4_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.317573] (-) TimerEvent: {}
+[6.342446] (turtlebot4_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.353445] (turtlebot4_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.353767] (turtlebot4_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.354398] (turtlebot4_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.358977] (turtlebot4_node) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.417671] (-) TimerEvent: {}
+[6.517933] (-) TimerEvent: {}
+[6.530114] (turtlebot4_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[6.613693] (turtlebot4_node) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.618018] (-) TimerEvent: {}
+[6.678599] (turtlebot4_node) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[6.718175] (-) TimerEvent: {}
+[6.739201] (turtlebot4_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[6.759651] (turtlebot4_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[6.783237] (turtlebot4_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.809607] (turtlebot4_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.818255] (-) TimerEvent: {}
+[6.918494] (-) TimerEvent: {}
+[6.922821] (turtlebot4_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[6.928470] (turtlebot4_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.018611] (-) TimerEvent: {}
+[7.037705] (turtlebot4_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[7.066279] (turtlebot4_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[7.095306] (turtlebot4_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.118701] (-) TimerEvent: {}
+[7.204920] (turtlebot4_node) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[7.218805] (-) TimerEvent: {}
+[7.272276] (turtlebot4_node) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[7.291955] (turtlebot4_node) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[7.318901] (turtlebot4_node) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[7.319083] (-) TimerEvent: {}
+[7.373755] (turtlebot4_node) StdoutLine: {'line': b'-- Found irobot_create_msgs: 3.0.0 (/opt/ros/jazzy/share/irobot_create_msgs/cmake)\n'}
+[7.410767] (turtlebot4_node) StdoutLine: {'line': b'-- Found turtlebot4_msgs: 2.1.1 (/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake)\n'}
+[7.419177] (-) TimerEvent: {}
+[7.431801] (turtlebot4_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[7.519293] (-) TimerEvent: {}
+[7.567157] (turtlebot4_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.567687] (turtlebot4_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_node/include\n'}
+[7.567850] (turtlebot4_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.569191] (turtlebot4_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[7.569353] (turtlebot4_node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[7.570579] (turtlebot4_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.572412] (turtlebot4_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.572561] (turtlebot4_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.573417] (turtlebot4_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.576387] (turtlebot4_node) StdoutLine: {'line': b'-- Configuring done (1.6s)\n'}
+[7.598447] (turtlebot4_node) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[7.603807] (turtlebot4_node) StdoutLine: {'line': b'-- Build files have been written to: /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node\n'}
+[7.619028] (turtlebot4_node) CommandEnded: {'returncode': 0}
+[7.619467] (-) TimerEvent: {}
+[7.619788] (turtlebot4_node) JobProgress: {'identifier': 'turtlebot4_node', 'progress': 'build'}
+[7.620256] (turtlebot4_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node', '--', '-j4', '-l4'], 'cwd': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/feiying/.gz/sim/gz_models/', 'LANGUAGE': 'zh_CN:zh', 'USER': 'feiying', 'SSH_CLIENT': '192.168.8.200 10091 22', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/helpers/browser.sh', 'HOME': '/home/feiying', 'OLDPWD': '/home/feiying/ros2_learn', 'TERM_PROGRAM_VERSION': '2.2.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-30666dc1-5b74-42c7-87b0-14294200b6a8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feiying', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0db45ebc47.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_DISABLE_DAEMON': '1', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_IPC_AUTH_TOKEN': 'c12d11516b7ccffe3c56eef3e75af2c7730583102a3f1d328bbb4a0556a6c7fc', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node', 'LC_ALL': 'zh_CN.UTF-8', 'SSH_CONNECTION': '192.168.8.200 10091 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.682820] (turtlebot4_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/display.cpp.o\x1b[0m\n'}
+[7.683109] (turtlebot4_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/turtlebot4.cpp.o\x1b[0m\n'}
+[7.683248] (turtlebot4_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/buttons.cpp.o\x1b[0m\n'}
+[7.683348] (turtlebot4_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/main.cpp.o\x1b[0m\n'}
+[7.721097] (-) TimerEvent: {}
+[7.821372] (-) TimerEvent: {}
+[7.921654] (-) TimerEvent: {}
+[8.021939] (-) TimerEvent: {}
+[8.122234] (-) TimerEvent: {}
+[8.222523] (-) TimerEvent: {}
+[8.322811] (-) TimerEvent: {}
+[8.424221] (-) TimerEvent: {}
+[8.524525] (-) TimerEvent: {}
+[8.624840] (-) TimerEvent: {}
+[8.725470] (-) TimerEvent: {}
+[8.825766] (-) TimerEvent: {}
+[8.926086] (-) TimerEvent: {}
+[9.026400] (-) TimerEvent: {}
+[9.126685] (-) TimerEvent: {}
+[9.228224] (-) TimerEvent: {}
+[9.328504] (-) TimerEvent: {}
+[9.428799] (-) TimerEvent: {}
+[9.529110] (-) TimerEvent: {}
+[9.629398] (-) TimerEvent: {}
+[9.732198] (-) TimerEvent: {}
+[9.832490] (-) TimerEvent: {}
+[9.932801] (-) TimerEvent: {}
+[10.033104] (-) TimerEvent: {}
+[10.133427] (-) TimerEvent: {}
+[10.233752] (-) TimerEvent: {}
+[10.334081] (-) TimerEvent: {}
+[10.434376] (-) TimerEvent: {}
+[10.534665] (-) TimerEvent: {}
+[10.634966] (-) TimerEvent: {}
+[10.737221] (-) TimerEvent: {}
+[10.837522] (-) TimerEvent: {}
+[10.937826] (-) TimerEvent: {}
+[11.038102] (-) TimerEvent: {}
+[11.138406] (-) TimerEvent: {}
+[11.238714] (-) TimerEvent: {}
+[11.339028] (-) TimerEvent: {}
+[11.439349] (-) TimerEvent: {}
+[11.541233] (-) TimerEvent: {}
+[11.641541] (-) TimerEvent: {}
+[11.741845] (-) TimerEvent: {}
+[11.842161] (-) TimerEvent: {}
+[11.942468] (-) TimerEvent: {}
+[12.044240] (-) TimerEvent: {}
+[12.144719] (-) TimerEvent: {}
+[12.245022] (-) TimerEvent: {}
+[12.346103] (-) TimerEvent: {}
+[12.446403] (-) TimerEvent: {}
+[12.546695] (-) TimerEvent: {}
+[12.649328] (-) TimerEvent: {}
+[12.749614] (-) TimerEvent: {}
+[12.849901] (-) TimerEvent: {}
+[12.950202] (-) TimerEvent: {}
+[13.050494] (-) TimerEvent: {}
+[13.150888] (-) TimerEvent: {}
+[13.254315] (-) TimerEvent: {}
+[13.354584] (-) TimerEvent: {}
+[13.454855] (-) TimerEvent: {}
+[13.555101] (-) TimerEvent: {}
+[13.655367] (-) TimerEvent: {}
+[13.755635] (-) TimerEvent: {}
+[13.856081] (-) TimerEvent: {}
+[13.956675] (-) TimerEvent: {}
+[14.058096] (-) TimerEvent: {}
+[14.123143] (turtlebot4_node) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/leds.cpp.o\x1b[0m\n'}
+[14.158204] (-) TimerEvent: {}
+[14.258492] (-) TimerEvent: {}
+[14.361231] (-) TimerEvent: {}
+[14.461510] (-) TimerEvent: {}
+[14.562078] (-) TimerEvent: {}
+[14.662551] (-) TimerEvent: {}
+[14.763723] (-) TimerEvent: {}
+[14.864105] (-) TimerEvent: {}
+[14.965305] (-) TimerEvent: {}
+[15.065563] (-) TimerEvent: {}
+[15.165960] (-) TimerEvent: {}
+[15.267869] (-) TimerEvent: {}
+[15.368102] (-) TimerEvent: {}
+[15.468386] (-) TimerEvent: {}
+[15.568820] (-) TimerEvent: {}
+[15.672247] (-) TimerEvent: {}
+[15.772519] (-) TimerEvent: {}
+[15.872792] (-) TimerEvent: {}
+[15.973063] (-) TimerEvent: {}
+[16.073331] (-) TimerEvent: {}
+[16.173596] (-) TimerEvent: {}
+[16.273868] (-) TimerEvent: {}
+[16.374154] (-) TimerEvent: {}
+[16.475202] (-) TimerEvent: {}
+[16.575471] (-) TimerEvent: {}
+[16.675893] (-) TimerEvent: {}
+[16.778184] (-) TimerEvent: {}
+[16.878454] (-) TimerEvent: {}
+[16.978877] (-) TimerEvent: {}
+[17.079970] (-) TimerEvent: {}
+[17.180367] (-) TimerEvent: {}
+[17.281261] (-) TimerEvent: {}
+[17.384327] (-) TimerEvent: {}
+[17.484618] (-) TimerEvent: {}
+[17.584918] (-) TimerEvent: {}
+[17.685394] (-) TimerEvent: {}
+[17.785843] (-) TimerEvent: {}
+[17.886121] (-) TimerEvent: {}
+[17.986514] (-) TimerEvent: {}
+[18.086912] (-) TimerEvent: {}
+[18.187472] (-) TimerEvent: {}
+[18.288032] (-) TimerEvent: {}
+[18.388587] (-) TimerEvent: {}
+[18.489125] (-) TimerEvent: {}
+[18.589651] (-) TimerEvent: {}
+[18.690196] (-) TimerEvent: {}
+[18.790751] (-) TimerEvent: {}
+[18.891294] (-) TimerEvent: {}
+[18.991848] (-) TimerEvent: {}
+[19.092388] (-) TimerEvent: {}
+[19.193108] (-) TimerEvent: {}
+[19.293713] (-) TimerEvent: {}
+[19.394356] (-) TimerEvent: {}
+[19.494956] (-) TimerEvent: {}
+[19.595579] (-) TimerEvent: {}
+[19.696189] (-) TimerEvent: {}
+[19.799111] (-) TimerEvent: {}
+[19.899384] (-) TimerEvent: {}
+[19.999811] (-) TimerEvent: {}
+[20.100412] (-) TimerEvent: {}
+[20.201351] (-) TimerEvent: {}
+[20.301858] (-) TimerEvent: {}
+[20.402302] (-) TimerEvent: {}
+[20.502696] (-) TimerEvent: {}
+[20.603094] (-) TimerEvent: {}
+[20.703478] (-) TimerEvent: {}
+[20.803870] (-) TimerEvent: {}
+[20.904441] (-) TimerEvent: {}
+[21.005881] (-) TimerEvent: {}
+[21.106427] (-) TimerEvent: {}
+[21.206923] (-) TimerEvent: {}
+[21.307533] (-) TimerEvent: {}
+[21.408118] (-) TimerEvent: {}
+[21.508696] (-) TimerEvent: {}
+[21.609234] (-) TimerEvent: {}
+[21.709849] (-) TimerEvent: {}
+[21.810387] (-) TimerEvent: {}
+[21.910946] (-) TimerEvent: {}
+[22.011610] (-) TimerEvent: {}
+[22.111998] (-) TimerEvent: {}
+[22.212581] (-) TimerEvent: {}
+[22.312959] (-) TimerEvent: {}
+[22.413543] (-) TimerEvent: {}
+[22.514066] (-) TimerEvent: {}
+[22.614609] (-) TimerEvent: {}
+[22.714968] (-) TimerEvent: {}
+[22.815375] (-) TimerEvent: {}
+[22.915738] (-) TimerEvent: {}
+[23.016090] (-) TimerEvent: {}
+[23.116471] (-) TimerEvent: {}
+[23.216836] (-) TimerEvent: {}
+[23.317241] (-) TimerEvent: {}
+[23.417510] (-) TimerEvent: {}
+[23.517780] (-) TimerEvent: {}
+[23.618033] (-) TimerEvent: {}
+[23.718319] (-) TimerEvent: {}
+[23.818602] (-) TimerEvent: {}
+[23.918879] (-) TimerEvent: {}
+[24.019149] (-) TimerEvent: {}
+[24.119423] (-) TimerEvent: {}
+[24.219707] (-) TimerEvent: {}
+[24.319959] (-) TimerEvent: {}
+[24.420244] (-) TimerEvent: {}
+[24.520511] (-) TimerEvent: {}
+[24.620782] (-) TimerEvent: {}
+[24.721070] (-) TimerEvent: {}
+[24.821350] (-) TimerEvent: {}
+[24.921613] (-) TimerEvent: {}
+[25.021876] (-) TimerEvent: {}
+[25.122143] (-) TimerEvent: {}
+[25.222408] (-) TimerEvent: {}
+[25.322676] (-) TimerEvent: {}
+[25.422945] (-) TimerEvent: {}
+[25.523234] (-) TimerEvent: {}
+[25.623501] (-) TimerEvent: {}
+[25.723770] (-) TimerEvent: {}
+[25.824056] (-) TimerEvent: {}
+[25.924319] (-) TimerEvent: {}
+[26.024587] (-) TimerEvent: {}
+[26.124878] (-) TimerEvent: {}
+[26.225200] (-) TimerEvent: {}
+[26.325469] (-) TimerEvent: {}
+[26.425740] (-) TimerEvent: {}
+[26.526015] (-) TimerEvent: {}
+[26.626315] (-) TimerEvent: {}
+[26.726587] (-) TimerEvent: {}
+[26.826872] (-) TimerEvent: {}
+[26.927145] (-) TimerEvent: {}
+[27.027416] (-) TimerEvent: {}
+[27.127688] (-) TimerEvent: {}
+[27.227963] (-) TimerEvent: {}
+[27.328251] (-) TimerEvent: {}
+[27.428520] (-) TimerEvent: {}
+[27.528793] (-) TimerEvent: {}
+[27.629080] (-) TimerEvent: {}
+[27.729398] (-) TimerEvent: {}
+[27.829681] (-) TimerEvent: {}
+[27.929977] (-) TimerEvent: {}
+[28.030303] (-) TimerEvent: {}
+[28.130603] (-) TimerEvent: {}
+[28.230922] (-) TimerEvent: {}
+[28.331251] (-) TimerEvent: {}
+[28.431540] (-) TimerEvent: {}
+[28.531833] (-) TimerEvent: {}
+[28.632127] (-) TimerEvent: {}
+[28.732417] (-) TimerEvent: {}
+[28.832687] (-) TimerEvent: {}
+[28.932959] (-) TimerEvent: {}
+[29.033250] (-) TimerEvent: {}
+[29.133519] (-) TimerEvent: {}
+[29.233788] (-) TimerEvent: {}
+[29.334074] (-) TimerEvent: {}
+[29.434351] (-) TimerEvent: {}
+[29.534618] (-) TimerEvent: {}
+[29.634888] (-) TimerEvent: {}
+[29.735105] (-) TimerEvent: {}
+[29.835374] (-) TimerEvent: {}
+[29.935640] (-) TimerEvent: {}
+[30.035915] (-) TimerEvent: {}
+[30.136169] (-) TimerEvent: {}
+[30.236434] (-) TimerEvent: {}
+[30.336686] (-) TimerEvent: {}
+[30.436957] (-) TimerEvent: {}
+[30.537283] (-) TimerEvent: {}
+[30.637567] (-) TimerEvent: {}
+[30.737834] (-) TimerEvent: {}
+[30.838134] (-) TimerEvent: {}
+[30.938403] (-) TimerEvent: {}
+[31.038674] (-) TimerEvent: {}
+[31.138944] (-) TimerEvent: {}
+[31.239234] (-) TimerEvent: {}
+[31.339495] (-) TimerEvent: {}
+[31.439773] (-) TimerEvent: {}
+[31.540069] (-) TimerEvent: {}
+[31.640351] (-) TimerEvent: {}
+[31.740626] (-) TimerEvent: {}
+[31.840903] (-) TimerEvent: {}
+[31.941181] (-) TimerEvent: {}
+[32.041467] (-) TimerEvent: {}
+[32.141737] (-) TimerEvent: {}
+[32.242014] (-) TimerEvent: {}
+[32.342301] (-) TimerEvent: {}
+[32.442593] (-) TimerEvent: {}
+[32.542900] (-) TimerEvent: {}
+[32.643203] (-) TimerEvent: {}
+[32.743494] (-) TimerEvent: {}
+[32.843782] (-) TimerEvent: {}
+[32.944123] (-) TimerEvent: {}
+[33.044420] (-) TimerEvent: {}
+[33.133912] (turtlebot4_node) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX static library libturtlebot4_node_lib.a\x1b[0m\n'}
+[33.144532] (-) TimerEvent: {}
+[33.244875] (-) TimerEvent: {}
+[33.345234] (-) TimerEvent: {}
+[33.445543] (-) TimerEvent: {}
+[33.545852] (-) TimerEvent: {}
+[33.646177] (-) TimerEvent: {}
+[33.746464] (-) TimerEvent: {}
+[33.785766] (turtlebot4_node) StdoutLine: {'line': b'[ 75%] Built target turtlebot4_node_lib\n'}
+[33.807857] (turtlebot4_node) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_node.dir/src/main.cpp.o\x1b[0m\n'}
+[33.846575] (-) TimerEvent: {}
+[33.946841] (-) TimerEvent: {}
+[34.047125] (-) TimerEvent: {}
+[34.147414] (-) TimerEvent: {}
+[34.247690] (-) TimerEvent: {}
+[34.347975] (-) TimerEvent: {}
+[34.448287] (-) TimerEvent: {}
+[34.548577] (-) TimerEvent: {}
+[34.648898] (-) TimerEvent: {}
+[34.749239] (-) TimerEvent: {}
+[34.849517] (-) TimerEvent: {}
+[34.949809] (-) TimerEvent: {}
+[35.050142] (-) TimerEvent: {}
+[35.150435] (-) TimerEvent: {}
+[35.250742] (-) TimerEvent: {}
+[35.351036] (-) TimerEvent: {}
+[35.451361] (-) TimerEvent: {}
+[35.551651] (-) TimerEvent: {}
+[35.651945] (-) TimerEvent: {}
+[35.752276] (-) TimerEvent: {}
+[35.852558] (-) TimerEvent: {}
+[35.952854] (-) TimerEvent: {}
+[36.053107] (-) TimerEvent: {}
+[36.153386] (-) TimerEvent: {}
+[36.253681] (-) TimerEvent: {}
+[36.353973] (-) TimerEvent: {}
+[36.454302] (-) TimerEvent: {}
+[36.554586] (-) TimerEvent: {}
+[36.654870] (-) TimerEvent: {}
+[36.755121] (-) TimerEvent: {}
+[36.855436] (-) TimerEvent: {}
+[36.955733] (-) TimerEvent: {}
+[37.056030] (-) TimerEvent: {}
+[37.156358] (-) TimerEvent: {}
+[37.256665] (-) TimerEvent: {}
+[37.356979] (-) TimerEvent: {}
+[37.457314] (-) TimerEvent: {}
+[37.557617] (-) TimerEvent: {}
+[37.657915] (-) TimerEvent: {}
+[37.758239] (-) TimerEvent: {}
+[37.858546] (-) TimerEvent: {}
+[37.958843] (-) TimerEvent: {}
+[38.059109] (-) TimerEvent: {}
+[38.159408] (-) TimerEvent: {}
+[38.259695] (-) TimerEvent: {}
+[38.359992] (-) TimerEvent: {}
+[38.460316] (-) TimerEvent: {}
+[38.560618] (-) TimerEvent: {}
+[38.660906] (-) TimerEvent: {}
+[38.761193] (-) TimerEvent: {}
+[38.861487] (-) TimerEvent: {}
+[38.961783] (-) TimerEvent: {}
+[39.062110] (-) TimerEvent: {}
+[39.162422] (-) TimerEvent: {}
+[39.214083] (turtlebot4_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot4_node\x1b[0m\n'}
+[39.262540] (-) TimerEvent: {}
+[39.362837] (-) TimerEvent: {}
+[39.463143] (-) TimerEvent: {}
+[39.563503] (-) TimerEvent: {}
+[39.663825] (-) TimerEvent: {}
+[39.764150] (-) TimerEvent: {}
+[39.864460] (-) TimerEvent: {}
+[39.964755] (-) TimerEvent: {}
+[40.065100] (-) TimerEvent: {}
+[40.165407] (-) TimerEvent: {}
+[40.265704] (-) TimerEvent: {}
+[40.366018] (-) TimerEvent: {}
+[40.466347] (-) TimerEvent: {}
+[40.566645] (-) TimerEvent: {}
+[40.666942] (-) TimerEvent: {}
+[40.767250] (-) TimerEvent: {}
+[40.867538] (-) TimerEvent: {}
+[40.967832] (-) TimerEvent: {}
+[41.068147] (-) TimerEvent: {}
+[41.120326] (turtlebot4_node) StdoutLine: {'line': b'[100%] Built target turtlebot4_node\n'}
+[41.132578] (turtlebot4_node) CommandEnded: {'returncode': 0}
+[41.133321] (turtlebot4_node) JobProgress: {'identifier': 'turtlebot4_node', 'progress': 'install'}
+[41.133797] (turtlebot4_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node'], 'cwd': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/feiying/.gz/sim/gz_models/', 'LANGUAGE': 'zh_CN:zh', 'USER': 'feiying', 'SSH_CLIENT': '192.168.8.200 10091 22', 'LC_TIME': 'zh_CN.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/helpers/browser.sh', 'HOME': '/home/feiying', 'OLDPWD': '/home/feiying/ros2_learn', 'TERM_PROGRAM_VERSION': '2.2.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-30666dc1-5b74-42c7-87b0-14294200b6a8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feiying', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/feiying/.cursor-server/cli/servers/Stable-c25eb90df95d64f6d280779237c1ca39f9f3eef0/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0db45ebc47.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_DISABLE_DAEMON': '1', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_IPC_AUTH_TOKEN': 'c12d11516b7ccffe3c56eef3e75af2c7730583102a3f1d328bbb4a0556a6c7fc', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node', 'LC_ALL': 'zh_CN.UTF-8', 'SSH_CONNECTION': '192.168.8.200 10091 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[41.142638] (turtlebot4_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[41.143205] (turtlebot4_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[41.143579] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/lib/turtlebot4_node/turtlebot4_node\n'}
+[41.154876] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/action.hpp\n'}
+[41.166482] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/buttons.hpp\n'}
+[41.168238] (-) TimerEvent: {}
+[41.178375] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/display.hpp\n'}
+[41.189929] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/leds.hpp\n'}
+[41.201082] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/service.hpp\n'}
+[41.212358] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/turtlebot4.hpp\n'}
+[41.224012] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/include/turtlebot4_node/utils.hpp\n'}
+[41.235909] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/ament_index/resource_index/package_run_dependencies/turtlebot4_node\n'}
+[41.247458] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/ament_index/resource_index/parent_prefix_path/turtlebot4_node\n'}
+[41.258796] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.sh\n'}
+[41.268339] (-) TimerEvent: {}
+[41.270131] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.dsv\n'}
+[41.281973] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/environment/path.sh\n'}
+[41.293634] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/environment/path.dsv\n'}
+[41.305091] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/local_setup.bash\n'}
+[41.316663] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/local_setup.sh\n'}
+[41.328258] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/local_setup.zsh\n'}
+[41.339549] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/local_setup.dsv\n'}
+[41.351003] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.dsv\n'}
+[41.362590] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/ament_index/resource_index/packages/turtlebot4_node\n'}
+[41.368451] (-) TimerEvent: {}
+[41.374381] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[41.385891] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig.cmake\n'}
+[41.397244] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig-version.cmake\n'}
+[41.408475] (turtlebot4_node) StdoutLine: {'line': b'-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.xml\n'}
+[41.421294] (turtlebot4_node) CommandEnded: {'returncode': 0}
+[41.449337] (turtlebot4_node) JobEnded: {'identifier': 'turtlebot4_node', 'rc': 0}
+[41.451259] (-) EventReactorShutdown: {}

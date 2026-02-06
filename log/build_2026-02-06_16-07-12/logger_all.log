@@ -1,0 +1,380 @@
+[0.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.115s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79df6a67ec00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79df6a7ab950>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79df6a7ab950>>)
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.155s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/feiying/ros2_learn/L05_turtlebot4'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_description) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_description) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_description) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_description) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_description) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_description) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_description) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_description) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_description) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4/turtlebot4_description' with type 'ros.ament_cmake' and name 'turtlebot4_description'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_msgs) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_msgs) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_msgs) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_msgs) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_msgs) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_msgs) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_msgs) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_msgs) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4/turtlebot4_msgs' with type 'ros.ament_cmake' and name 'turtlebot4_msgs'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_navigation) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_navigation) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_navigation) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_navigation) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_navigation) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_navigation) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_navigation) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_navigation) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4/turtlebot4_navigation' with type 'ros.ament_cmake' and name 'turtlebot4_navigation'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_node) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_node) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_node) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_node) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_node) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_node) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_node) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_node) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4/turtlebot4_node) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4/turtlebot4_node' with type 'ros.ament_cmake' and name 'turtlebot4_node'
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/feiying/ros2_learn/L05_turtlebot4/install
+[0.215s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/feiying/ros2_learn/L04_panda_moveit/install
+[0.217s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 496 installed packages in /opt/ros/jazzy
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot4_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description', 'merge_install': False, 'path': '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description', 'symlink_install': True, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs', 'merge_install': False, 'path': '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_navigation' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_navigation' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.294s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot4_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation', 'merge_install': False, 'path': '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_node' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_node' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.294s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot4_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node', 'merge_install': False, 'path': '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_node', 'symlink_install': True, 'test_result_base': None}
+[0.295s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.296s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.296s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_msgs' with build type 'ament_cmake'
+[0.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_msgs'
+[0.298s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description' with build type 'ament_cmake'
+[0.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description'
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.309s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_navigation' with build type 'ament_cmake'
+[0.309s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_navigation'
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs
+[0.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description
+[0.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation
+[0.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description
+[0.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description -- -j4 -l4
+[0.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description -- -j4 -l4
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description
+[0.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation
+[0.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation -- -j4 -l4
+[0.875s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_description)
+[0.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description' for CMake module files
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description' for CMake config files
+[0.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_description', 'cmake_prefix_path')
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/hook/cmake_prefix_path.ps1'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/hook/cmake_prefix_path.dsv'
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/hook/cmake_prefix_path.sh'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib'
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/bin'
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib/pkgconfig/turtlebot4_description.pc'
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib/python3.12/site-packages'
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/bin'
+[0.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.ps1'
+[0.883s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.dsv'
+[0.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.sh'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.bash'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.zsh'
+[0.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/colcon-core/packages/turtlebot4_description)
+[0.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_description)
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description' for CMake module files
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description' for CMake config files
+[0.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_description', 'cmake_prefix_path')
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/hook/cmake_prefix_path.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/hook/cmake_prefix_path.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/hook/cmake_prefix_path.sh'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/bin'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib/pkgconfig/turtlebot4_description.pc'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib/python3.12/site-packages'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/bin'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.dsv'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.sh'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.bash'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.zsh'
+[0.893s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/colcon-core/packages/turtlebot4_description)
+[1.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation -- -j4 -l4
+[1.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation
+[1.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_navigation)
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation' for CMake module files
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation' for CMake config files
+[1.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_navigation', 'cmake_prefix_path')
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/hook/cmake_prefix_path.ps1'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/hook/cmake_prefix_path.dsv'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/hook/cmake_prefix_path.sh'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/bin'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/pkgconfig/turtlebot4_navigation.pc'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages'
+[1.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_navigation', 'pythonpath')
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/hook/pythonpath.ps1'
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/hook/pythonpath.dsv'
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/hook/pythonpath.sh'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/bin'
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.dsv'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.sh'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.bash'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.zsh'
+[1.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/colcon-core/packages/turtlebot4_navigation)
+[1.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_navigation)
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation' for CMake module files
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation' for CMake config files
+[1.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_navigation', 'cmake_prefix_path')
+[1.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/hook/cmake_prefix_path.ps1'
+[1.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/hook/cmake_prefix_path.dsv'
+[1.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/hook/cmake_prefix_path.sh'
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib'
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/bin'
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/pkgconfig/turtlebot4_navigation.pc'
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages'
+[1.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_navigation', 'pythonpath')
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/hook/pythonpath.ps1'
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/hook/pythonpath.dsv'
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/hook/pythonpath.sh'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/bin'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.ps1'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.dsv'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.sh'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.bash'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.zsh'
+[1.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/colcon-core/packages/turtlebot4_navigation)
+[1.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs
+[1.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs -- -j4 -l4
+[2.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs -- -j4 -l4
+[2.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs
+[2.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_msgs)
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs' for CMake module files
+[2.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs
+[2.131s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs' for CMake config files
+[2.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_msgs', 'cmake_prefix_path')
+[2.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/cmake_prefix_path.ps1'
+[2.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/cmake_prefix_path.dsv'
+[2.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/cmake_prefix_path.sh'
+[2.133s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib'
+[2.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_msgs', 'ld_library_path_lib')
+[2.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/ld_library_path_lib.ps1'
+[2.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/ld_library_path_lib.dsv'
+[2.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/ld_library_path_lib.sh'
+[2.134s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/bin'
+[2.134s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/pkgconfig/turtlebot4_msgs.pc'
+[2.135s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages'
+[2.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_msgs', 'pythonpath')
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/pythonpath.ps1'
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/pythonpath.dsv'
+[2.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/pythonpath.sh'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/bin'
+[2.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.ps1'
+[2.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.dsv'
+[2.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.sh'
+[2.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.bash'
+[2.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.zsh'
+[2.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/colcon-core/packages/turtlebot4_msgs)
+[2.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_msgs)
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs' for CMake module files
+[2.141s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs' for CMake config files
+[2.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_msgs', 'cmake_prefix_path')
+[2.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/cmake_prefix_path.ps1'
+[2.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/cmake_prefix_path.dsv'
+[2.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/cmake_prefix_path.sh'
+[2.143s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib'
+[2.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_msgs', 'ld_library_path_lib')
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/ld_library_path_lib.ps1'
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/ld_library_path_lib.dsv'
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/ld_library_path_lib.sh'
+[2.144s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/bin'
+[2.144s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/pkgconfig/turtlebot4_msgs.pc'
+[2.144s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages'
+[2.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_msgs', 'pythonpath')
+[2.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/pythonpath.ps1'
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/pythonpath.dsv'
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/hook/pythonpath.sh'
+[2.146s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/bin'
+[2.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.ps1'
+[2.147s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.dsv'
+[2.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.sh'
+[2.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.bash'
+[2.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.zsh'
+[2.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/colcon-core/packages/turtlebot4_msgs)
+[2.149s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_node' with build type 'ament_cmake'
+[2.149s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_node'
+[2.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node': CMAKE_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node
+[3.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node' returned '0': CMAKE_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node
+[3.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node': CMAKE_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node -- -j4 -l4
+[3.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node' returned '0': CMAKE_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node -- -j4 -l4
+[3.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node': CMAKE_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node
+[3.205s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_node)
+[3.206s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node' for CMake module files
+[3.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node' returned '0': CMAKE_PREFIX_PATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages:/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages:/home/feiying/ros2_learn/L04_panda_moveit/install/panda_moveit_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node' for CMake config files
+[3.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_node', 'cmake_prefix_path')
+[3.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/hook/cmake_prefix_path.ps1'
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/hook/cmake_prefix_path.dsv'
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/hook/cmake_prefix_path.sh'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/lib'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/bin'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/lib/pkgconfig/turtlebot4_node.pc'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/lib/python3.12/site-packages'
+[3.210s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/bin'
+[3.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.ps1'
+[3.211s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.dsv'
+[3.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.sh'
+[3.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.bash'
+[3.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.zsh'
+[3.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/colcon-core/packages/turtlebot4_node)
+[3.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_node)
+[3.213s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node' for CMake module files
+[3.213s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node' for CMake config files
+[3.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_node', 'cmake_prefix_path')
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/hook/cmake_prefix_path.ps1'
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/hook/cmake_prefix_path.dsv'
+[3.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/hook/cmake_prefix_path.sh'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/lib'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/bin'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/lib/pkgconfig/turtlebot4_node.pc'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/lib/python3.12/site-packages'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/bin'
+[3.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.ps1'
+[3.217s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.dsv'
+[3.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.sh'
+[3.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.bash'
+[3.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/turtlebot4_node/package.zsh'
+[3.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_node/share/colcon-core/packages/turtlebot4_node)
+[3.219s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.220s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.220s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.220s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.226s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.241s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.241s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feiying/ros2_learn/L05_turtlebot4/install/local_setup.ps1'
+[3.242s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/feiying/ros2_learn/L05_turtlebot4/install/_local_setup_util_ps1.py'
+[3.244s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feiying/ros2_learn/L05_turtlebot4/install/setup.ps1'
+[3.245s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feiying/ros2_learn/L05_turtlebot4/install/local_setup.sh'
+[3.246s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/feiying/ros2_learn/L05_turtlebot4/install/_local_setup_util_sh.py'
+[3.247s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feiying/ros2_learn/L05_turtlebot4/install/setup.sh'
+[3.248s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feiying/ros2_learn/L05_turtlebot4/install/local_setup.bash'
+[3.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feiying/ros2_learn/L05_turtlebot4/install/setup.bash'
+[3.250s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feiying/ros2_learn/L05_turtlebot4/install/local_setup.zsh'
+[3.250s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feiying/ros2_learn/L05_turtlebot4/install/setup.zsh'

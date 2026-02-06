@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "turtlebot4_msgs/msg/UserButton",
+      "fields": [
+        {
+          "name": "button",
+          "type": {
+            "type_id": 63,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "turtlebot4_msgs/msg/UserButton",
+      "hash_string": "RIHS01_e07447eabadb14c08c03e8e92c434891a6220a72d700766012ebc07e69212236"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5b72153bfec79b3b9b32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "turtlebot4_node",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot4_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot4_node-b391934d73c51ff67f2b.json",
+					"name" : "turtlebot4_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot4_node_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot4_node_lib-4dfeb7de0b198e8134fc.json",
+					"name" : "turtlebot4_node_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot4_node_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot4_node_uninstall-cb7710b91fc662c9efb9.json",
+					"name" : "turtlebot4_node_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1f210491bbc2175632b7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_node",
+		"source" : "/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

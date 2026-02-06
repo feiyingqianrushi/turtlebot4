@@ -1,0 +1,52 @@
+Built target ament_cmake_python_symlink_turtlebot4_navigation
+running egg_info
+creating turtlebot4_navigation.egg-info
+writing turtlebot4_navigation.egg-info/PKG-INFO
+writing dependency_links to turtlebot4_navigation.egg-info/dependency_links.txt
+writing top-level names to turtlebot4_navigation.egg-info/top_level.txt
+writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+reading manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_turtlebot4_navigation_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/config/localization.yaml
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/config/nav2.yaml
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/config/slam.yaml
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/localization.launch.py
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/nav2.launch.py
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/slam.launch.py
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.pgm
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.yaml
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.pgm
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.yaml
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.pgm
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.yaml
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.sh
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.dsv
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation-2.1.1-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation-2.1.1-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation-2.1.1-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation-2.1.1-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation/__init__.py
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation/turtlebot4_navigator.py
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigator.py
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot4_navigation
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot4_navigation
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.sh
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.sh
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.dsv
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.bash
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.sh
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.zsh
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.dsv
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.dsv
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/ament_index/resource_index/packages/turtlebot4_navigation
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig.cmake
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig-version.cmake
+-- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.xml
+Listing '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation'...
+Compiling '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation/__init__.py'...
+Compiling '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation/turtlebot4_navigator.py'...
+Compiling '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigator.py'...

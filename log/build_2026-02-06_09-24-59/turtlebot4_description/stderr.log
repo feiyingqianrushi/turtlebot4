@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:21 (find_package):
+  By not providing "Findirobot_create_description.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "irobot_create_description", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "irobot_create_description" with any of the following names:
+
+    irobot_create_descriptionConfig.cmake
+    irobot_create_description-config.cmake
+
+  Add the installation prefix of "irobot_create_description" to
+  CMAKE_PREFIX_PATH or set "irobot_create_description_DIR" to a directory
+  containing one of the above files.  If "irobot_create_description" provides
+  a separate development package or SDK, be sure it has been installed.
+
+

@@ -1,0 +1,37 @@
+[0.012s] Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description
+[0.160s] -- The C compiler identification is GNU 13.3.0
+[0.275s] -- The CXX compiler identification is GNU 13.3.0
+[0.296s] -- Detecting C compiler ABI info
+[0.402s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.413s] -- Detecting C compile features
+[0.414s] -- Detecting C compile features - done
+[0.424s] -- Detecting CXX compiler ABI info
+[0.537s] -- Detecting CXX compiler ABI info - done
+[0.547s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.548s] -- Detecting CXX compile features
+[0.549s] -- Detecting CXX compile features - done
+[0.559s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.742s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.840s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.908s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[0.980s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.011s] CMake Error at CMakeLists.txt:21 (find_package):
+[1.011s]   By not providing "Findirobot_create_description.cmake" in CMAKE_MODULE_PATH
+[1.011s]   this project has asked CMake to find a package configuration file provided
+[1.012s]   by "irobot_create_description", but CMake did not find one.
+[1.012s] 
+[1.012s]   Could not find a package configuration file provided by
+[1.012s]   "irobot_create_description" with any of the following names:
+[1.012s] 
+[1.012s]     irobot_create_descriptionConfig.cmake
+[1.013s]     irobot_create_description-config.cmake
+[1.013s] 
+[1.013s]   Add the installation prefix of "irobot_create_description" to
+[1.014s]   CMAKE_PREFIX_PATH or set "irobot_create_description_DIR" to a directory
+[1.014s]   containing one of the above files.  If "irobot_create_description" provides
+[1.014s]   a separate development package or SDK, be sure it has been installed.
+[1.014s] 
+[1.014s] 
+[1.014s] -- Configuring incomplete, errors occurred!
+[1.021s] Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description
