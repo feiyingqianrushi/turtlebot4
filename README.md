@@ -116,7 +116,37 @@ source install/setup.bash
 
 ---
 
-### 5. 直接用 `ros2 topic pub` 控制（不通过脚本）
+### 5. 键盘控制（W/A/S/D）
+
+使用键盘实时控制小车移动：
+
+```bash
+source /opt/ros/jazzy/setup.bash
+cd ~/ros2_learn/L05_turtlebot4
+source install/setup.bash
+
+# 启动键盘控制节点
+ros2 run turtlebot4_description keyboard_control.py
+```
+
+**控制说明：**
+- `w/W` - 前进
+- `s/S` - 后退
+- `a/A` - 左转
+- `d/D` - 右转
+- `x/X` - 停止
+- `q/Q` - 退出
+- `+/-` - 增加/减少线速度
+- `</>` - 增加/减少角速度
+
+**注意：**
+- 需要在**终端窗口**中运行（不是通过 SSH 或非交互式终端）
+- 按一次键会持续移动，直到按下其他键或按 `x` 停止
+- 默认线速度：0.3 m/s，角速度：0.5 rad/s
+
+---
+
+### 6. 直接用 `ros2 topic pub` 控制（不通过脚本）
 
 ```bash
 # 前进（0.5 m/s）
@@ -173,8 +203,28 @@ ros2 topic list
 - TurtleBot4 使用 Gazebo Harmonic（通过 ros_gz_sim）
 - 默认使用 `diffdrive_controller` 控制移动（Create3 官方配置）
 
+## 雷达使用
+
+雷达数据发布在 `/scan` 话题上。详细使用说明请参考 [LIDAR_USAGE.md](LIDAR_USAGE.md)。
+
+### 快速开始
+
+```bash
+# 1. 启动仿真（雷达桥接会自动启动）
+ros2 launch turtlebot4_description turtlebot4_gazebo.launch.py
+
+# 2. 查看雷达数据
+ros2 topic echo /scan
+
+# 3. 在 RViz 中可视化（LaserScan 显示已配置）
+ros2 launch turtlebot4_description turtlebot4_sim_rviz.launch.py
+```
+
+✅ **雷达数据**：雷达桥接节点已改进，现在可以从 Gazebo 获取真实的雷达扫描数据，Gazebo 和 RViz 可以同步显示。
+
 ## 参考资源
 
 - 官方文档：https://github.com/turtlebot/turtlebot4
 - iRobot Create3：https://github.com/iRobotEducation/create3_ros
+- 雷达使用说明：[LIDAR_USAGE.md](LIDAR_USAGE.md)
 
