@@ -1,0 +1,84 @@
+[0.022s] Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description
+[0.107s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.605s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.753s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[0.860s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.879s] -- Found irobot_create_description: 3.0.4 (/opt/ros/jazzy/share/irobot_create_description/cmake)
+[0.883s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.329s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.336s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.337s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.339s] -- Added test 'lint_cmake' to check CMake code style
+[1.340s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.344s] -- Added test 'xmllint' to check XML markup files
+[1.347s] -- Configuring done (1.3s)
+[1.505s] -- Generating done (0.1s)
+[1.505s] -- Build files have been written to: /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description
+[1.521s] Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description
+[1.530s] Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description -- -j4 -l4
+[1.663s] Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description -- -j4 -l4
+[1.691s] Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description
+[1.709s] -- Install configuration: ""
+[1.710s] -- Execute custom install script
+[1.712s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/launch/__pycache__/turtlebot4_slam.launch.cpython-312.pyc
+[1.728s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/launch/robot_description.launch.py
+[1.729s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/launch/turtlebot4_gazebo.launch.py
+[1.734s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/launch/turtlebot4_nav.launch.py
+[1.735s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/launch/turtlebot4_rviz.launch.py
+[1.735s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/launch/turtlebot4_sim_rviz.launch.py
+[1.735s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/launch/turtlebot4_slam.launch.py
+[1.736s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/launch/turtlebot4_slam_nav.launch.py
+[1.736s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/launch/turtlebot4_with_keyboard.launch.py
+[1.737s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/camera_bracket.dae
+[1.737s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_lite.dae
+[1.738s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_pro.dae
+[1.738s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/rplidar.dae
+[1.739s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/shell.dae
+[1.739s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/shell_collision.dae
+[1.739s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/tower.dae
+[1.740s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_sensor_plate.dae
+[1.740s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_standoff.dae
+[1.740s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/meshes/weight_block.dae
+[1.741s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf.xacro
+[1.741s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/camera_bracket.urdf.xacro
+[1.742s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/oakd.urdf.xacro
+[1.742s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/rplidar.urdf.xacro
+[1.743s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_sensor_plate.urdf.xacro
+[1.744s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_standoff.urdf.xacro
+[1.744s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro
+[1.744s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/weight_block.urdf.xacro
+[1.745s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/scripts/camera_bridge.py
+[1.745s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/scripts/joint_states_bridge.py
+[1.767s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/scripts/keyboard_control.py
+[1.770s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/scripts/lidar_bridge.py
+[1.771s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/scripts/publish_robot_description.py
+[1.773s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/scripts/relay_robot_description.py
+[1.773s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/scripts/save_map.py
+[1.774s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/scripts/tf_bridge.py
+[1.775s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/config/nav2_params.yaml
+[1.775s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/config/slam_toolbox.yaml
+[1.776s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/config/turtlebot4_controllers.yaml
+[1.776s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib/turtlebot4_description/relay_robot_description.py
+[1.776s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib/turtlebot4_description/publish_robot_description.py
+[1.777s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib/turtlebot4_description/camera_bridge.py
+[1.777s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib/turtlebot4_description/lidar_bridge.py
+[1.787s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib/turtlebot4_description/keyboard_control.py
+[1.788s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib/turtlebot4_description/tf_bridge.py
+[1.788s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/lib/turtlebot4_description/joint_states_bridge.py
+[1.830s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/rviz/turtlebot4_gazebo.rviz
+[1.831s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description
+[1.833s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/ament_index/resource_index/parent_prefix_path/turtlebot4_description
+[1.834s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.sh
+[1.834s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.dsv
+[1.835s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/environment/path.sh
+[1.836s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/environment/path.dsv
+[1.836s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/local_setup.bash
+[1.838s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/local_setup.sh
+[1.838s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/local_setup.zsh
+[1.848s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/local_setup.dsv
+[1.849s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.dsv
+[1.882s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/ament_index/resource_index/packages/turtlebot4_description
+[1.883s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig.cmake
+[1.884s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig-version.cmake
+[1.885s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_description/share/turtlebot4_description/package.xml
+[1.887s] Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_description

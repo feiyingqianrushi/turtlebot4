@@ -315,11 +315,11 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "meshes" "urdf" "scripts" "config" "DESTINATION" "share/turtlebot4_description")
-ament_cmake_symlink_install_directory("/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description" DIRECTORY "launch" "meshes" "urdf" "scripts" "config" "DESTINATION" "share/turtlebot4_description")
+# install(DIRECTORY "launch" "meshes" "urdf" "scripts" "config" "worlds" "DESTINATION" "share/turtlebot4_description")
+ament_cmake_symlink_install_directory("/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description" DIRECTORY "launch" "meshes" "urdf" "scripts" "config" "worlds" "DESTINATION" "share/turtlebot4_description")
 
-# install(PROGRAMS "scripts/relay_robot_description.py" "scripts/publish_robot_description.py" "scripts/camera_bridge.py" "scripts/lidar_bridge.py" "scripts/keyboard_control.py" "DESTINATION" "lib/turtlebot4_description")
-ament_cmake_symlink_install_programs("/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description" PROGRAMS "scripts/relay_robot_description.py" "scripts/publish_robot_description.py" "scripts/camera_bridge.py" "scripts/lidar_bridge.py" "scripts/keyboard_control.py" "DESTINATION" "lib/turtlebot4_description")
+# install(PROGRAMS "scripts/relay_robot_description.py" "scripts/publish_robot_description.py" "scripts/camera_bridge.py" "scripts/lidar_bridge.py" "scripts/keyboard_control.py" "scripts/tf_bridge.py" "scripts/joint_states_bridge.py" "DESTINATION" "lib/turtlebot4_description")
+ament_cmake_symlink_install_programs("/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description" PROGRAMS "scripts/relay_robot_description.py" "scripts/publish_robot_description.py" "scripts/camera_bridge.py" "scripts/lidar_bridge.py" "scripts/keyboard_control.py" "scripts/tf_bridge.py" "scripts/joint_states_bridge.py" "DESTINATION" "lib/turtlebot4_description")
 
 # install(DIRECTORY "rviz" "DESTINATION" "share/turtlebot4_description")
 ament_cmake_symlink_install_directory("/home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_description" DIRECTORY "rviz" "DESTINATION" "share/turtlebot4_description")

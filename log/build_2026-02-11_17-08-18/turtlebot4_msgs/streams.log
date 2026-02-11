@@ -1,0 +1,180 @@
+[0.023s] Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/install/diffbot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_msgs -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs
+[0.041s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.070s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.156s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.164s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.272s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.278s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.334s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.375s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.379s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.609s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.707s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.828s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.829s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.130s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.150s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.150s] -- Added test 'lint_cmake' to check CMake code style
+[1.151s] -- Added test 'xmllint' to check XML markup files
+[1.159s] -- Configuring done (1.1s)
+[1.200s] -- Generating done (0.0s)
+[1.214s] -- Build files have been written to: /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs
+[1.221s] Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/install/diffbot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/feiying/ros2_learn/L05_turtlebot4/src/turtlebot4/turtlebot4_msgs -DCMAKE_INSTALL_PREFIX=/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs
+[1.222s] Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/install/diffbot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs -- -j4 -l4
+[1.275s] [  1%] Built target turtlebot4_msgs__rosidl_generator_type_description
+[1.286s] [  1%] Built target ament_cmake_python_symlink_turtlebot4_msgs
+[1.306s] [  3%] Built target turtlebot4_msgs__cpp
+[1.306s] [ 24%] Built target turtlebot4_msgs__rosidl_generator_c
+[1.333s] [ 33%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_c
+[1.336s] [ 42%] Built target turtlebot4_msgs__rosidl_typesupport_c
+[1.361s] [ 51%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp
+[1.365s] [ 61%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_cpp
+[1.386s] [ 70%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_c
+[1.388s] [ 79%] Built target turtlebot4_msgs__rosidl_typesupport_cpp
+[1.410s] [ 79%] Built target turtlebot4_msgs
+[1.432s] [ 81%] Built target turtlebot4_msgs__py
+[1.460s] [ 88%] Built target turtlebot4_msgs__rosidl_generator_py
+[1.486s] [ 92%] Built target turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c
+[1.488s] [ 96%] Built target turtlebot4_msgs_s__rosidl_typesupport_c
+[1.496s] [100%] Built target turtlebot4_msgs_s__rosidl_typesupport_introspection_c
+[1.550s] running egg_info
+[1.576s] writing turtlebot4_msgs.egg-info/PKG-INFO
+[1.576s] writing dependency_links to turtlebot4_msgs.egg-info/dependency_links.txt
+[1.576s] writing top-level names to turtlebot4_msgs.egg-info/top_level.txt
+[1.652s] reading manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'
+[1.653s] writing manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'
+[1.683s] [100%] Built target ament_cmake_python_build_turtlebot4_msgs_egg
+[1.696s] Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/install/diffbot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs -- -j4 -l4
+[1.697s] Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/install/diffbot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs
+[1.706s] -- Install configuration: ""
+[1.707s] -- Execute custom install script
+[1.707s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot4_msgs
+[1.707s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.json
+[1.708s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.json
+[1.708s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.json
+[1.708s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__functions.h
+[1.709s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__struct.h
+[1.709s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__type_support.h
+[1.709s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__functions.h
+[1.709s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__struct.h
+[1.709s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__type_support.h
+[1.709s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__functions.h
+[1.709s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__struct.h
+[1.710s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__type_support.h
+[1.710s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.710s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_button.h
+[1.710s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_display.h
+[1.710s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_led.h
+[1.710s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/library_path.sh
+[1.710s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/library_path.dsv
+[1.711s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_fastrtps_c.h
+[1.711s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_fastrtps_c.h
+[1.711s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_fastrtps_c.h
+[1.711s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.712s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_introspection_c.h
+[1.712s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_introspection_c.h
+[1.712s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_introspection_c.h
+[1.712s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.713s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__builder.hpp
+[1.713s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__struct.hpp
+[1.713s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__traits.hpp
+[1.713s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__type_support.hpp
+[1.714s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__builder.hpp
+[1.714s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__struct.hpp
+[1.714s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__traits.hpp
+[1.714s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__type_support.hpp
+[1.714s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__builder.hpp
+[1.714s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__struct.hpp
+[1.714s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__traits.hpp
+[1.714s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__type_support.hpp
+[1.715s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.715s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_button.hpp
+[1.715s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_display.hpp
+[1.715s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_led.hpp
+[1.716s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_fastrtps_cpp.hpp
+[1.716s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_fastrtps_cpp.hpp
+[1.716s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_fastrtps_cpp.hpp
+[1.716s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.716s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_introspection_cpp.hpp
+[1.717s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_introspection_cpp.hpp
+[1.717s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_introspection_cpp.hpp
+[1.717s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/pythonpath.sh
+[1.717s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/pythonpath.dsv
+[1.717s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs-2.1.1-py3.12.egg-info/PKG-INFO
+[1.718s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs-2.1.1-py3.12.egg-info/SOURCES.txt
+[1.718s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs-2.1.1-py3.12.egg-info/dependency_links.txt
+[1.718s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs-2.1.1-py3.12.egg-info/top_level.txt
+[1.718s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/__init__.py
+[1.719s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c
+[1.719s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.719s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.719s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/__init__.py
+[1.719s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_button.py
+[1.719s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_button_s.c
+[1.719s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_display.py
+[1.720s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_display_s.c
+[1.720s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_led.py
+[1.720s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg/_user_led_s.c
+[1.720s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so
+[1.720s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.720s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.so
+[1.721s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.721s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.so
+[1.721s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so
+[1.721s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.idl
+[1.722s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.idl
+[1.722s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.idl
+[1.722s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.msg
+[1.722s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.msg
+[1.722s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.msg
+[1.723s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot4_msgs
+[1.723s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot4_msgs
+[1.723s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/ament_prefix_path.sh
+[1.723s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/ament_prefix_path.dsv
+[1.723s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/path.sh
+[1.723s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/path.dsv
+[1.724s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.bash
+[1.724s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.sh
+[1.724s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.zsh
+[1.724s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.dsv
+[1.724s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.dsv
+[1.734s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/ament_index/resource_index/packages/turtlebot4_msgs
+[1.734s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake-extras.cmake
+[1.734s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.735s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.735s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.735s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.735s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.735s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.736s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgsConfig.cmake
+[1.736s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgsConfig-version.cmake
+[1.736s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/package.xml
+[1.736s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_c.so
+[1.737s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so
+[1.737s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_c.so
+[1.737s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_c.so
+[1.737s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.738s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so
+[1.738s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_cpp.so
+[1.775s] Listing '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs'...
+[1.775s] Compiling '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/__init__.py'...
+[1.775s] Listing '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/python3.12/site-packages/turtlebot4_msgs/msg'...
+[1.781s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_py.so
+[1.781s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cExport.cmake
+[1.781s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.781s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.781s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.781s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.782s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.782s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cExport.cmake
+[1.782s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.782s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cppExport.cmake
+[1.782s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.782s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.782s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.782s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.782s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cppExport.cmake
+[1.782s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.782s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_pyExport.cmake
+[1.783s] -- Up-to-date: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.784s] Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/install/diffbot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_msgs

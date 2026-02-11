@@ -1,0 +1,51 @@
+[0.021s] Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/install/diffbot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation -- -j4 -l4
+[0.085s] Built target ament_cmake_python_symlink_turtlebot4_navigation
+[0.371s] running egg_info
+[0.397s] writing turtlebot4_navigation.egg-info/PKG-INFO
+[0.398s] writing dependency_links to turtlebot4_navigation.egg-info/dependency_links.txt
+[0.398s] writing top-level names to turtlebot4_navigation.egg-info/top_level.txt
+[0.473s] reading manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[0.473s] writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[0.513s] Built target ament_cmake_python_build_turtlebot4_navigation_egg
+[0.525s] Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/install/diffbot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation -- -j4 -l4
+[0.526s] Invoking command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/install/diffbot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation
+[0.537s] -- Install configuration: ""
+[0.538s] -- Execute custom install script
+[0.538s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/config/localization.yaml
+[0.540s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/config/nav2.yaml
+[0.541s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/config/slam.yaml
+[0.541s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/localization.launch.py
+[0.541s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/nav2.launch.py
+[0.541s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/slam.launch.py
+[0.541s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.pgm
+[0.541s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.yaml
+[0.541s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.pgm
+[0.547s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.yaml
+[0.548s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.pgm
+[0.549s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.yaml
+[0.550s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.sh
+[0.550s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.dsv
+[0.551s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation-2.1.1-py3.12.egg-info/PKG-INFO
+[0.552s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation-2.1.1-py3.12.egg-info/SOURCES.txt
+[0.552s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation-2.1.1-py3.12.egg-info/dependency_links.txt
+[0.552s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation-2.1.1-py3.12.egg-info/top_level.txt
+[0.552s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation/__init__.py
+[0.553s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation/turtlebot4_navigator.py
+[0.554s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigator.py
+[0.554s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot4_navigation
+[0.554s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot4_navigation
+[0.554s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.sh
+[0.554s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.dsv
+[0.554s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.sh
+[0.554s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.dsv
+[0.554s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.bash
+[0.554s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.sh
+[0.554s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.zsh
+[0.555s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.dsv
+[0.555s] -- Symlinking: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.dsv
+[0.560s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/ament_index/resource_index/packages/turtlebot4_navigation
+[0.560s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig.cmake
+[0.561s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig-version.cmake
+[0.561s] -- Up-to-date symlink: /home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/share/turtlebot4_navigation/package.xml
+[0.592s] Listing '/home/feiying/ros2_learn/L05_turtlebot4/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation'...
+[0.648s] Invoked command in '/home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feiying/ros2_learn/install/diffbot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/feiying/ros2_learn/L05_turtlebot4/build/turtlebot4_navigation
